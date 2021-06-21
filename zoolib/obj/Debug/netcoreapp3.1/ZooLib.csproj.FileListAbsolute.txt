@@ -1,0 +1,9 @@
+D:\1. WORK\ANKO\Zoo Lab\ZooLib\obj\Debug\netcoreapp3.1\ZooLib.csproj.AssemblyReference.cache
+D:\1. WORK\ANKO\Zoo Lab\ZooLib\obj\Debug\netcoreapp3.1\ZooLib.AssemblyInfoInputs.cache
+D:\1. WORK\ANKO\Zoo Lab\ZooLib\obj\Debug\netcoreapp3.1\ZooLib.AssemblyInfo.cs
+D:\1. WORK\ANKO\Zoo Lab\ZooLib\obj\Debug\netcoreapp3.1\ZooLib.csproj.CoreCompileInputs.cache
+D:\1. WORK\ANKO\Zoo Lab\ZooLib\bin\Debug\netcoreapp3.1\ZooLib.deps.json
+D:\1. WORK\ANKO\Zoo Lab\ZooLib\bin\Debug\netcoreapp3.1\ZooLib.dll
+D:\1. WORK\ANKO\Zoo Lab\ZooLib\bin\Debug\netcoreapp3.1\ZooLib.pdb
+D:\1. WORK\ANKO\Zoo Lab\ZooLib\obj\Debug\netcoreapp3.1\ZooLib.dll
+D:\1. WORK\ANKO\Zoo Lab\ZooLib\obj\Debug\netcoreapp3.1\ZooLib.pdb
