@@ -1,0 +1,424 @@
+TpTrace Verbose: 0 : 33508, 1, 2021/06/21, 23:06:35.431, 6400704608939, datacollector.dll, Version: 16.10.0-release-20210520-03
+TpTrace Information: 0 : 33508, 1, 2021/06/21, 23:06:35.437, 6400704642357, datacollector.dll, DataCollectorMain.Run: Starting data collector run with args: --port,54422,--parentprocessid,52752,--diag,D:\1. WORK\ANKO\Zoo Lab\ZooTest\bin\Debug\netcoreapp3.1\fine-code-coverage\coverage-tool-output\diagnostics.datacollector.21-06-21_23-06-35_29618_4.log,--tracelevel,4
+TpTrace Information: 0 : 33508, 1, 2021/06/21, 23:06:35.437, 6400704643686, datacollector.dll, DataCollector: Monitoring parent process with id: '52752'
+TpTrace Information: 0 : 33508, 1, 2021/06/21, 23:06:35.508, 6400705348822, datacollector.dll, Trying to connect to server on socket : 127.0.0.1:54422 
+TpTrace Verbose: 0 : 33508, 1, 2021/06/21, 23:06:35.542, 6400705692274, datacollector.dll, SocketCommunicationManager : SetupClientAsync : Attempting to connect to the server.
+TpTrace Information: 0 : 33508, 4, 2021/06/21, 23:06:35.551, 6400705779900, datacollector.dll, Connected to the server successfully 
+TpTrace Information: 0 : 33508, 4, 2021/06/21, 23:06:35.551, 6400705780698, datacollector.dll, Using the buffer size of 16384 bytes
+TpTrace Information: 0 : 33508, 1, 2021/06/21, 23:06:35.622, 6400706490133, datacollector.dll, DataCollector: Start Request Processing.
+TpTrace Information: 0 : 33508, 1, 2021/06/21, 23:06:35.625, 6400706523644, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : Datacollector received message: (DataCollection.BeforeTestRunStart) -> {
+  "SettingsXml": "<RunSettings><RunConfiguration><ResultsDirectory>D:\\1. WORK\\ANKO\\Zoo Lab\\ZooTest\\bin\\Debug\\netcoreapp3.1\\fine-code-coverage\\coverage-tool-output</ResultsDirectory><TargetPlatform>X64</TargetPlatform><TargetFrameworkVersion>.NETCoreApp,Version=v3.1</TargetFrameworkVersion><DesignMode>False</DesignMode><CollectSourceInformation>False</CollectSourceInformation><TestAdaptersPaths>C:\\Program Files\\dotnet\\sdk\\5.0.301\\Extensions</TestAdaptersPaths></RunConfiguration><LoggerRunSettings><Loggers><Logger friendlyName=\"blame\" enabled=\"True\" /><Logger friendlyName=\"Console\" uri=\"logger://microsoft/TestPlatform/ConsoleLogger/v1\" assemblyQualifiedName=\"Microsoft.VisualStudio.TestPlatform.CommandLine.Internal.ConsoleLogger, vstest.console, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" codeBase=\"C:\\Program Files\\dotnet\\sdk\\5.0.301\\vstest.console.dll\" enabled=\"True\" /></Loggers></LoggerRunSettings><DataCollectionRunSettings><DataCollectors><DataCollector friendlyName=\"blame\" enabled=\"True\"><Configuration><ResultsDirectory>D:\\1. WORK\\ANKO\\Zoo Lab\\ZooTest\\bin\\Debug\\netcoreapp3.1\\fine-code-coverage\\coverage-tool-output</ResultsDirectory></Configuration></DataCollector></DataCollectors></DataCollectionRunSettings></RunSettings>",
+  "Sources": [
+    "D:\\1. WORK\\ANKO\\Zoo Lab\\ZooTest\\bin\\Debug\\netcoreapp3.1\\fine-code-coverage\\build-output\\ZooTest.dll"
+  ],
+  "IsTelemetryOptedIn": false
+}
+TpTrace Verbose: 0 : 33508, 1, 2021/06/21, 23:06:35.661, 6400706886386, datacollector.dll, TestPluginCache: Update extensions started. Skip filter = False
+TpTrace Verbose: 0 : 33508, 1, 2021/06/21, 23:06:35.662, 6400706893066, datacollector.dll, TestPluginCache: Using directories for assembly resolution 'C:\Program Files\dotnet\sdk\5.0.301\Extensions'.
+TpTrace Verbose: 0 : 33508, 1, 2021/06/21, 23:06:35.662, 6400706893627, datacollector.dll, TestPluginCache: Updated the available extensions to 'C:\Program Files\dotnet\sdk\5.0.301\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll,C:\Program Files\dotnet\sdk\5.0.301\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll'.
+TpTrace Verbose: 0 : 33508, 1, 2021/06/21, 23:06:35.670, 6400706971994, datacollector.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies ends with: Collector.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.DataCollector.DataCollectorConfig TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollection.DataCollector
+TpTrace Verbose: 0 : 33508, 1, 2021/06/21, 23:06:35.670, 6400706974180, datacollector.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: C:\Program Files\dotnet\sdk\5.0.301\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll
+C:\Program Files\dotnet\sdk\5.0.301\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll
+TpTrace Verbose: 0 : 33508, 1, 2021/06/21, 23:06:35.670, 6400706974671, datacollector.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: 
+TpTrace Verbose: 0 : 33508, 1, 2021/06/21, 23:06:35.670, 6400706974982, datacollector.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 33508, 1, 2021/06/21, 23:06:35.671, 6400706982937, datacollector.dll, AssemblyResolver.ctor: Creating AssemblyResolver with searchDirectories C:\Program Files\dotnet\sdk\5.0.301\Extensions,C:\Program Files\dotnet\sdk\5.0.301
+TpTrace Verbose: 0 : 33508, 1, 2021/06/21, 23:06:35.672, 6400706994893, datacollector.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 33508, 1, 2021/06/21, 23:06:35.672, 6400706996568, datacollector.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: C:\Program Files\dotnet\sdk\5.0.301\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll
+C:\Program Files\dotnet\sdk\5.0.301\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll
+TpTrace Verbose: 0 : 33508, 1, 2021/06/21, 23:06:35.672, 6400706997104, datacollector.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: 
+TpTrace Verbose: 0 : 33508, 1, 2021/06/21, 23:06:35.672, 6400706997358, datacollector.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 33508, 1, 2021/06/21, 23:06:35.672, 6400706997805, datacollector.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\Program Files\dotnet\sdk\5.0.301\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll
+C:\Program Files\dotnet\sdk\5.0.301\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll
+TpTrace Information: 0 : 33508, 1, 2021/06/21, 23:06:35.673, 6400706998705, datacollector.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Program Files\dotnet\sdk\5.0.301\Extensions,C:\Program Files\dotnet\sdk\5.0.301
+TpTrace Information: 0 : 33508, 1, 2021/06/21, 23:06:35.673, 6400706999229, datacollector.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Program Files\dotnet\sdk\5.0.301\Extensions,C:\Program Files\dotnet\sdk\5.0.301
+TpTrace Information: 0 : 33508, 1, 2021/06/21, 23:06:35.673, 6400707002935, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.BlameDataCollector: Resolving assembly.
+TpTrace Information: 0 : 33508, 1, 2021/06/21, 23:06:35.673, 6400707003543, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.BlameDataCollector: Searching in: 'C:\Program Files\dotnet\sdk\5.0.301\Extensions'.
+TpTrace Information: 0 : 33508, 1, 2021/06/21, 23:06:35.674, 6400707010778, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.BlameDataCollector: Loading assembly 'C:\Program Files\dotnet\sdk\5.0.301\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll'.
+TpTrace Information: 0 : 33508, 1, 2021/06/21, 23:06:35.675, 6400707019802, datacollector.dll, AssemblyResolver.OnResolve: Resolved assembly: Microsoft.TestPlatform.Extensions.BlameDataCollector, from path: C:\Program Files\dotnet\sdk\5.0.301\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll
+TpTrace Error: 0 : 33508, 1, 2021/06/21, 23:06:35.676, 6400707030433, datacollector.dll, The type "Microsoft.TestPlatform.Extensions.BlameDataCollector.BlameCollector" defined in "Microsoft.TestPlatform.Extensions.BlameDataCollector.dll" does not have ExtensionUri attribute.
+TpTrace Information: 0 : 33508, 1, 2021/06/21, 23:06:35.677, 6400707043932, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.EventLogCollector: Resolving assembly.
+TpTrace Information: 0 : 33508, 1, 2021/06/21, 23:06:35.677, 6400707045135, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.EventLogCollector: Searching in: 'C:\Program Files\dotnet\sdk\5.0.301\Extensions'.
+TpTrace Information: 0 : 33508, 1, 2021/06/21, 23:06:35.678, 6400707050600, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.EventLogCollector: Loading assembly 'C:\Program Files\dotnet\sdk\5.0.301\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll'.
+TpTrace Information: 0 : 33508, 1, 2021/06/21, 23:06:35.678, 6400707055859, datacollector.dll, AssemblyResolver.OnResolve: Resolved assembly: Microsoft.TestPlatform.Extensions.EventLogCollector, from path: C:\Program Files\dotnet\sdk\5.0.301\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll
+TpTrace Error: 0 : 33508, 1, 2021/06/21, 23:06:35.680, 6400707072491, datacollector.dll, The type "Microsoft.TestPlatform.Extensions.EventLogCollector.EventLogDataCollector" defined in "Microsoft.TestPlatform.Extensions.EventLogCollector.dll" does not have ExtensionUri attribute.
+TpTrace Verbose: 0 : 33508, 1, 2021/06/21, 23:06:35.680, 6400707076286, datacollector.dll, TestPluginCache: Discovered the extensions using extension path 'C:\Program Files\dotnet\sdk\5.0.301\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll,C:\Program Files\dotnet\sdk\5.0.301\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll'.
+TpTrace Verbose: 0 : 33508, 1, 2021/06/21, 23:06:35.680, 6400707076821, datacollector.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 33508, 1, 2021/06/21, 23:06:35.680, 6400707077100, datacollector.dll, TestPluginCache: Executors are ''.
+TpTrace Verbose: 0 : 33508, 1, 2021/06/21, 23:06:35.680, 6400707077335, datacollector.dll, TestPluginCache: Executors2 are ''.
+TpTrace Verbose: 0 : 33508, 1, 2021/06/21, 23:06:35.680, 6400707077558, datacollector.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 33508, 1, 2021/06/21, 23:06:35.680, 6400707077832, datacollector.dll, TestPluginCache: Loggers are ''.
+TpTrace Information: 0 : 33508, 1, 2021/06/21, 23:06:35.682, 6400707092091, datacollector.dll, TestPluginManager.CreateTestExtension: Attempting to load test extension: Microsoft.TestPlatform.Extensions.BlameDataCollector.BlameCollector
+TpTrace Error: 0 : 33508, 1, 2021/06/21, 23:06:35.683, 6400707098718, datacollector.dll, The type "Microsoft.TestPlatform.Extensions.BlameDataCollector.BlameCollector" defined in "Microsoft.TestPlatform.Extensions.BlameDataCollector.dll" does not have ExtensionUri attribute.
+TpTrace Information: 0 : 33508, 1, 2021/06/21, 23:06:35.688, 6400707154942, datacollector.dll, Listening on Endpoint : 127.0.0.1:54424
+TpTrace Information: 0 : 33508, 1, 2021/06/21, 23:06:35.694, 6400707217089, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : DataCollection started.
+TpTrace Information: 0 : 33508, 1, 2021/06/21, 23:06:35.742, 6400707697860, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : Datacollector received message: (DataCollection.TestHostLaunched) -> {
+  "ProcessId": 40184
+}
+TpTrace Information: 0 : 33508, 6, 2021/06/21, 23:06:35.925, 6400709521657, datacollector.dll, Using the buffer size of 16384 bytes
+TpTrace Information: 0 : 33508, 6, 2021/06/21, 23:06:35.925, 6400709522370, datacollector.dll, Accepted Client request and set the flag
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.853, 6400718804813, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.862, 6400718897160, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.865, 6400718923957, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.EnclosureTest.ShouldBeAbleToAddFriendlyAnimalsIntoEnclosure - f0e87d80-2213-4d04-e552-2e76df531138' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.866, 6400718934701, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.867, 6400718938118, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.867, 6400718939620, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Animals.Birds.PenguinTest.ShouldBeAbleToCreatePenguin - 725e6fba-c0c5-044a-bb6f-4bad2663b313' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.867, 6400718944594, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.867, 6400718947235, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.868, 6400718948175, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Animals.Mammals.ElephantTest.ShouldBeAbleToCreateElephant - dc19d066-7836-2594-cb81-f1b5e863818e' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.869, 6400718957966, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.869, 6400718960393, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.870, 6400718973663, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Animals.Mammals.BisonTest.ShouldBeAbleToCreateBison - 7f43c83c-2d37-ab53-e7e7-f651992f7b0d' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.877, 6400719040776, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.880, 6400719077440, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.884, 6400719116747, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Animals.Mammals.BisonTest.ShouldBeAbleToCreateBison - 7f43c83c-2d37-ab53-e7e7-f651992f7b0d' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.892, 6400719190746, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.892, 6400719193472, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.892, 6400719194910, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Animals.Birds.PenguinTest.ShouldBeAbleToCreatePenguin - 725e6fba-c0c5-044a-bb6f-4bad2663b313' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.893, 6400719199710, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.893, 6400719201712, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.893, 6400719202812, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.EnclosureTest.ShouldBeAbleToAddFriendlyAnimalsIntoEnclosure - f0e87d80-2213-4d04-e552-2e76df531138' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.894, 6400719207925, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.894, 6400719210434, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.894, 6400719211664, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Animals.Mammals.ElephantTest.ShouldBeAbleToCreateElephant - dc19d066-7836-2594-cb81-f1b5e863818e' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.896, 6400719228771, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.896, 6400719231349, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.896, 6400719234143, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.EnclosureTest.ShouldNotBeAbleToAddFriendlyAnimalsIntoFullEnclosure - 50cd0e35-ab9b-6bb0-425f-406d4c9f3764' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.897, 6400719240021, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.897, 6400719242516, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.897, 6400719243829, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.EnclosureTest.ShouldNotBeAbleToAddFriendlyAnimalsIntoFullEnclosure - 50cd0e35-ab9b-6bb0-425f-406d4c9f3764' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.898, 6400719250046, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.900, 6400719275453, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.900, 6400719277383, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.EnclosureTest.ShouldBeAbleToCreateEnclosure - cb4fdf4e-6e28-591a-6263-4ea8647ccff5' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.901, 6400719282517, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.901, 6400719284835, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.901, 6400719285987, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.EnclosureTest.ShouldBeAbleToCreateEnclosure - cb4fdf4e-6e28-591a-6263-4ea8647ccff5' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.902, 6400719291789, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.902, 6400719294068, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.902, 6400719295119, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.EnclosureTest.ShouldBeAbleToCalculateFreeSpace - 6c33e95a-41d4-efd9-fc70-58501b55398f' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.903, 6400719299466, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.903, 6400719301336, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.903, 6400719302309, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.EnclosureTest.ShouldBeAbleToCalculateFreeSpace - 6c33e95a-41d4-efd9-fc70-58501b55398f' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.904, 6400719308985, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.904, 6400719311520, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.904, 6400719312640, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.EnclosureTest.ShouldNotBeAbleToAddFriendlyAnimalsIntoFullEnclosureAndConsoleIsNull - d5e394b8-31d9-2b91-bf2c-ac2dd83c3bc9' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.905, 6400719323709, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.905, 6400719327113, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.906, 6400719328588, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.EnclosureTest.ShouldNotBeAbleToAddFriendlyAnimalsIntoFullEnclosureAndConsoleIsNull - d5e394b8-31d9-2b91-bf2c-ac2dd83c3bc9' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.906, 6400719334554, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.906, 6400719336648, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.906, 6400719337636, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.EnclosureTest.ShouldNotBeAbleToAddUnfriendlyAnimalsIntoEnclosure - e763188d-8339-5710-0bf8-d9543488e8e9' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.907, 6400719341858, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.907, 6400719343642, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.907, 6400719344588, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.EnclosureTest.ShouldNotBeAbleToAddUnfriendlyAnimalsIntoEnclosure - e763188d-8339-5710-0bf8-d9543488e8e9' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.937, 6400719643587, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.937, 6400719647049, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.938, 6400719648675, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.EnclosureTest.ShouldNotBeAbleToAddUnfriendlyAnimalsIntoEnclosureIsNull - 29e6c0d0-fda5-7dbe-d9ae-60df6a166b85' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.938, 6400719654119, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.938, 6400719656407, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.938, 6400719657687, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.EnclosureTest.ShouldNotBeAbleToAddUnfriendlyAnimalsIntoEnclosureIsNull - 29e6c0d0-fda5-7dbe-d9ae-60df6a166b85' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.942, 6400719695926, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.943, 6400719698260, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.943, 6400719699344, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Animals.Mammals.LionTest.ShouldBeAbleToCreateLion - a99e0730-281b-4a16-65b0-28cbabe05f64' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.943, 6400719703674, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.943, 6400719705756, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.943, 6400719706754, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Exceptions.ZooLabExceptionsTest.ShouldBeAbleToCreateNotFriendlyAnimalException - 192c9d56-bd6d-ed36-dade-1a4871f2fbc2' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.944, 6400719712039, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.944, 6400719715527, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.944, 6400719717092, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Exceptions.ZooLabExceptionsTest.ShouldBeAbleToCreateNotFriendlyAnimalException - 192c9d56-bd6d-ed36-dade-1a4871f2fbc2' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.945, 6400719725089, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.945, 6400719727647, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.946, 6400719728981, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Exceptions.ZooLabExceptionsTest.ShouldBeAbleToCreateNoAvailableSpaceException - 55cf818a-9a51-e7f9-6925-fbf04a56ed77' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.947, 6400719739432, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.947, 6400719742381, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.947, 6400719743956, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Exceptions.ZooLabExceptionsTest.ShouldBeAbleToCreateNoAvailableSpaceException - 55cf818a-9a51-e7f9-6925-fbf04a56ed77' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.948, 6400719749686, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.948, 6400719751765, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.948, 6400719752760, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Exceptions.ZooLabExceptionsTest.ShouldBeAbleToCreateUnknownAnimalException - b8ab9769-2635-2935-f605-cb4e5b9a75b0' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.948, 6400719756896, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.949, 6400719758797, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.949, 6400719759847, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Animals.Mammals.LionTest.ShouldBeAbleToCreateLion - a99e0730-281b-4a16-65b0-28cbabe05f64' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.950, 6400719775409, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.951, 6400719778231, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.951, 6400719779637, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Exceptions.ZooLabExceptionsTest.ShouldBeAbleToCreateUnknownAnimalException - b8ab9769-2635-2935-f605-cb4e5b9a75b0' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.958, 6400719851433, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.958, 6400719853966, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.958, 6400719855089, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Exceptions.ZooLabExceptionsTest.ShouldBeAbleToCreateNoNeededExperienceException - cb047559-56fc-a657-8446-1ac402ed6f61' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.959, 6400719860402, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.959, 6400719862561, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.959, 6400719863754, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Employees.Validators.ZooKeeperHireValidatorTest.ShouldThrowAnExceptionIfEmployeeDoesNotHaveNeededExperience - 2898d373-7655-7af3-4064-d15bf7c97130' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.960, 6400719869266, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.960, 6400719871603, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.960, 6400719872845, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Exceptions.ZooLabExceptionsTest.ShouldBeAbleToCreateNoNeededExperienceException - cb047559-56fc-a657-8446-1ac402ed6f61' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.960, 6400719877507, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.961, 6400719879500, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.961, 6400719880457, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Employees.Validators.VeterinarianHireValidatorTest.ShouldThrowAnExceptionIfEmployeeDoesNotHaveNeededExperience - af4a8ca1-dcfc-7b27-91b8-361f36eb5de6' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.961, 6400719885384, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.961, 6400719887738, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.962, 6400719888984, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Exceptions.ZooLabExceptionsTest.ShouldBeAbleToCreateNotFavoriteFoodException - 70e85239-6d2c-223b-3326-63c2ad8b251c' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.962, 6400719894584, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.962, 6400719896965, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.963, 6400719898231, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Exceptions.ZooLabExceptionsTest.ShouldBeAbleToCreateNotFavoriteFoodException - 70e85239-6d2c-223b-3326-63c2ad8b251c' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.965, 6400719922590, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.965, 6400719925086, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.965, 6400719926156, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Exceptions.ZooLabExceptionsTest.ShouldBeAbleToCreateEnclosureAlreadyExistsException - 99e156e3-5072-85fb-013f-9e009bad9c0a' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.966, 6400719930752, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.966, 6400719932739, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.966, 6400719933704, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Employees.ZooKeeperTest.ShouldBeAbleToCreateZooKeeper - 0335d175-3ae3-2f7c-55d3-5868130d1801' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.967, 6400719938108, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.967, 6400719940080, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.967, 6400719941434, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Exceptions.ZooLabExceptionsTest.ShouldBeAbleToCreateEnclosureAlreadyExistsException - 99e156e3-5072-85fb-013f-9e009bad9c0a' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.967, 6400719947281, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.968, 6400719949595, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.968, 6400719950704, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Animals.Birds.ParrotTest.ShouldNotBeAbleToFeedParrotWithUnfavoriteFood - 23b0eb46-03a9-c02a-fb45-3c0457836150' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.968, 6400719955693, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.969, 6400719958206, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.969, 6400719959378, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Employees.ZooKeeperTest.ShouldBeAbleToCreateZooKeeper - 0335d175-3ae3-2f7c-55d3-5868130d1801' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.969, 6400719965823, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.970, 6400719968772, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.970, 6400719970233, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Employees.ZooKeeperTest.ShouldBeAbleToFeedAnimal - 4249ceea-de96-e301-437f-a0b32d5eea06' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.970, 6400719976669, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.971, 6400719979168, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.971, 6400719980460, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Animals.Birds.ParrotTest.ShouldNotBeAbleToFeedParrotWithUnfavoriteFood - 23b0eb46-03a9-c02a-fb45-3c0457836150' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.971, 6400719986126, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.972, 6400719988148, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.972, 6400719989110, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Animals.Birds.ParrotTest.ShouldNotBeAbleToFeedParrotIfZooKeeperHasNotExperience - bbd06c8b-6013-5181-3e50-0b1590b12cc9' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.972, 6400719993418, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.972, 6400719995334, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.972, 6400719996336, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Employees.ZooKeeperTest.ShouldBeAbleToFeedAnimal - 4249ceea-de96-e301-437f-a0b32d5eea06' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.973, 6400720001069, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.973, 6400720003687, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.973, 6400720005063, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Employees.ZooKeeperTest.ShouldBeAbletoAddAnimalExperiences - a5e8fca2-8da6-edf8-893e-f58a0cd5e2eb' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.974, 6400720010586, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.974, 6400720013869, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.974, 6400720015491, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Animals.Birds.ParrotTest.ShouldNotBeAbleToFeedParrotIfZooKeeperHasNotExperience - bbd06c8b-6013-5181-3e50-0b1590b12cc9' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.975, 6400720021774, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.975, 6400720024179, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.975, 6400720025376, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Animals.Birds.ParrotTest.ShouldBeAbleToCreateParrot - c750c634-bab7-5ce9-1ba1-c0616613ad75' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.976, 6400720030720, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.976, 6400720033376, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.976, 6400720034802, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Employees.ZooKeeperTest.ShouldBeAbletoAddAnimalExperiences - a5e8fca2-8da6-edf8-893e-f58a0cd5e2eb' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.977, 6400720041227, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.977, 6400720044287, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.977, 6400720045532, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Employees.ZooKeeperTest.ShouldBeUnableToFeedAnimalWithotExperience - 0c400a02-7bf1-15e1-58e2-2c218710c8e8' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.978, 6400720050729, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.978, 6400720052994, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.978, 6400720054049, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Employees.Validators.VeterinarianHireValidatorTest.ShouldThrowAnExceptionIfEmployeeDoesNotHaveNeededExperience - af4a8ca1-dcfc-7b27-91b8-361f36eb5de6' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.981, 6400720081429, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.981, 6400720084258, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.981, 6400720085509, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Employees.Validators.VeterinarianHireValidatorTest.ShouldReturnNullIfEmployeeHasNeededExperience - fd4c2d5a-5ab1-58df-9b1f-f7e45ad14b5f' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.982, 6400720090800, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.982, 6400720093021, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.982, 6400720094551, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Employees.ZooKeeperTest.ShouldBeUnableToFeedAnimalWithotExperience - 0c400a02-7bf1-15e1-58e2-2c218710c8e8' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.983, 6400720101077, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.983, 6400720103385, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.983, 6400720104485, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Animals.Birds.ParrotTest.ShouldBeAbleToCreateParrot - c750c634-bab7-5ce9-1ba1-c0616613ad75' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.984, 6400720110942, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.984, 6400720114148, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.984, 6400720115374, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Animals.Birds.ParrotTest.ShouldBeAbleToFeedParrot - bd4ab2ce-06d6-5e78-38a5-e8393556ddeb' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.985, 6400720120390, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.985, 6400720122552, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.985, 6400720123570, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Employees.Validators.VeterinarianHireValidatorTest.ShouldReturnNullIfEmployeeHasNeededExperience - fd4c2d5a-5ab1-58df-9b1f-f7e45ad14b5f' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.986, 6400720129666, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.986, 6400720131965, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.986, 6400720133000, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Animals.AnimalTest.AnimalCanBeSick - 45a8432a-d64f-3dd9-6c01-7a8502a49fce' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.986, 6400720137489, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.987, 6400720139586, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.987, 6400720140500, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Animals.Reptiles.SnakeTest.ShouldBeAbleToCreateSnake - f30baf61-ee58-a053-397f-7e4383f6a989' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.987, 6400720145332, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.987, 6400720147455, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.988, 6400720148528, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Animals.Birds.ParrotTest.ShouldBeAbleToFeedParrot - bd4ab2ce-06d6-5e78-38a5-e8393556ddeb' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.988, 6400720154763, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.988, 6400720157118, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.989, 6400720158173, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Employees.VeterinarianTest.ShouldBeAbletoAddAnimalExperiences - 4c8e947c-acd6-72eb-6be4-8ff01f1eef87' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.989, 6400720163427, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.989, 6400720165615, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.989, 6400720166725, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Employees.VeterinarianTest.ShouldBeAbletoAddAnimalExperiences - 4c8e947c-acd6-72eb-6be4-8ff01f1eef87' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.990, 6400720171874, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.990, 6400720173866, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.990, 6400720174741, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Employees.VeterinarianTest.ShouldBeAbleToHealAnimal - 353320d8-c0e4-4bee-1666-2c162c77bad5' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.991, 6400720178507, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.991, 6400720180320, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.991, 6400720181287, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Employees.VeterinarianTest.ShouldBeAbleToHealAnimal - 353320d8-c0e4-4bee-1666-2c162c77bad5' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.991, 6400720185554, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.991, 6400720187327, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.992, 6400720188115, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Employees.VeterinarianTest.ShouldBeUnableToHealAnimalWithoutExperience - 4df4e93a-3cb7-1359-4c24-6721e7d7317f' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.992, 6400720191724, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.992, 6400720193500, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.992, 6400720194497, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Employees.VeterinarianTest.ShouldBeUnableToHealAnimalWithoutExperience - 4df4e93a-3cb7-1359-4c24-6721e7d7317f' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.993, 6400720205945, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.994, 6400720209287, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.994, 6400720210756, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Employees.VeterinarianTest.ShouldBeAbleToCreateVeterinarian - 5148ff64-05a2-6f6b-6323-c14464694b29' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.995, 6400720220872, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.995, 6400720223473, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.995, 6400720224710, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Employees.VeterinarianTest.ShouldBeAbleToCreateVeterinarian - 5148ff64-05a2-6f6b-6323-c14464694b29' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.996, 6400720231124, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.996, 6400720233211, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.997, 6400720238183, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Employees.HireValidatorProviderTest.ShouldBeAbleToCreateLocalPaleontolog - 5210c22c-0127-7db3-a563-f0d898b9d15e' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.997, 6400720240603, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.997, 6400720242741, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.997, 6400720243798, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Animals.Reptiles.SnakeTest.ShouldBeAbleToCreateSnake - f30baf61-ee58-a053-397f-7e4383f6a989' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.998, 6400720249357, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.998, 6400720251326, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.998, 6400720252386, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Animals.Reptiles.TurtleTest.ShouldBeAbleToCreateTurtle - cc1e236c-6a97-c6a6-2f81-9b2ad7ff7f11' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.998, 6400720256253, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.999, 6400720258096, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.999, 6400720259024, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Employees.HireValidatorProviderTest.ShouldBeAbleToCreateLocalPaleontolog - 5210c22c-0127-7db3-a563-f0d898b9d15e' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.999, 6400720263555, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.999, 6400720265700, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:36.999, 6400720266701, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Employees.HireValidatorProviderTest.ShouldThrowAnExceptionWhenEmployeeHasWrongType - 595e7c73-ceed-9a1e-db24-024016d1182a' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.000, 6400720270893, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.000, 6400720272879, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.000, 6400720273881, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Animals.Reptiles.TurtleTest.ShouldBeAbleToCreateTurtle - cc1e236c-6a97-c6a6-2f81-9b2ad7ff7f11' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.001, 6400720279085, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.001, 6400720280995, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.001, 6400720281973, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Employees.HireValidatorProviderTest.ShouldThrowAnExceptionWhenEmployeeHasWrongType - 595e7c73-ceed-9a1e-db24-024016d1182a' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.001, 6400720286918, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.002, 6400720288915, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.002, 6400720289839, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Employees.HireValidatorProviderTest.ShouldBeAbleToReturnZooKeeperHireValidator - 0a87e2f9-c4f5-c340-3aed-d2a69d83d4ba' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.002, 6400720293434, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.002, 6400720295208, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.002, 6400720296047, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.ZooTest.ShouldBeAbleToFeedAnimalsByZooKeepers - 01c487c6-8da6-ce7e-926f-4fb1f0da86c8' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.003, 6400720299896, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.003, 6400720301812, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.003, 6400720303881, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Employees.HireValidatorProviderTest.ShouldBeAbleToReturnZooKeeperHireValidator - 0a87e2f9-c4f5-c340-3aed-d2a69d83d4ba' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.004, 6400720308567, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.004, 6400720310791, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.004, 6400720312936, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Employees.HireValidatorProviderTest.ShouldBeAbleToReturnVeterinarianHireValidator - 1b699d12-776d-fca2-dea9-bfdcc8586a09' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.004, 6400720317585, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.005, 6400720319660, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.005, 6400720320688, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Employees.HireValidatorProviderTest.ShouldBeAbleToReturnVeterinarianHireValidator - 1b699d12-776d-fca2-dea9-bfdcc8586a09' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.005, 6400720325240, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.005, 6400720327026, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.005, 6400720327860, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Employees.Validators.ZooKeeperHireValidatorTest.ShouldThrowAnExceptionIfEmployeeDoesNotHaveNeededExperience - 2898d373-7655-7af3-4064-d15bf7c97130' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.007, 6400720338288, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.007, 6400720340166, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.007, 6400720340979, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Employees.Validators.ZooKeeperHireValidatorTest.ShouldReturnNullIfEmployeeHasNeededExperience - 8b8a42ce-2f6b-2048-f0ce-49371a6285f8' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.007, 6400720344892, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.007, 6400720346755, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.007, 6400720347732, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Employees.Validators.ZooKeeperHireValidatorTest.ShouldReturnNullIfEmployeeHasNeededExperience - 8b8a42ce-2f6b-2048-f0ce-49371a6285f8' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.008, 6400720353141, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.008, 6400720354906, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.008, 6400720355748, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.ZooTest.ShouldBeAbleToFeedAnimalsByZooKeepers - 01c487c6-8da6-ce7e-926f-4fb1f0da86c8' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.009, 6400720361022, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.009, 6400720362909, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.009, 6400720363873, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.ZooTest.ShouldBeAbleToReturnNullIfThereIsNoAvailableEnclosure - da920bfc-e904-d337-333e-dae949166096' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.010, 6400720368009, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.010, 6400720369825, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.010, 6400720370707, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.ZooTest.ShouldBeAbleToReturnNullIfThereIsNoAvailableEnclosure - da920bfc-e904-d337-333e-dae949166096' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.010, 6400720375160, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.010, 6400720376903, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.010, 6400720377711, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.ZooTest.ShouldBeAbleToHealAnimalsByZooKeepers - 8d9bc9cd-9b28-7f7f-6e2c-4902fd2f349c' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.011, 6400720381322, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.011, 6400720383028, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.011, 6400720383844, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.ZooTest.ShouldBeAbleToHealAnimalsByZooKeepers - 8d9bc9cd-9b28-7f7f-6e2c-4902fd2f349c' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.012, 6400720388035, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.012, 6400720389765, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.012, 6400720390526, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.ZooTest.ShouldThrowAnUnknownAnimalExceptionIfNoOneHaveExperienceWithIt - 5ed4abca-5751-3ec0-3a6d-bbb0ce0950f7' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.012, 6400720394085, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.012, 6400720395774, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.012, 6400720396567, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.ZooTest.ShouldThrowAnUnknownAnimalExceptionIfNoOneHaveExperienceWithIt - 5ed4abca-5751-3ec0-3a6d-bbb0ce0950f7' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.013, 6400720401593, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.013, 6400720404694, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.013, 6400720405793, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.ZooTest.ShouldNotBeAbleToHireAnEmployeeIfAnyValidationErrorIsExist - f757a14f-aa99-4e4a-c67b-aeee25aabf74' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.014, 6400720410562, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.014, 6400720415404, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.014, 6400720416921, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.ZooTest.ShouldNotBeAbleToHireAnEmployeeIfAnyValidationErrorIsExist - f757a14f-aa99-4e4a-c67b-aeee25aabf74' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.015, 6400720422370, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.015, 6400720424231, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.015, 6400720425039, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.ZooTest.ShouldBeAbleFindAvailableNonEmptyEnclosureWithFriendlyAnimalOnly - 0c70751d-05c4-caaf-924b-9ba34c54766f' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.016, 6400720428964, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.016, 6400720430741, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.016, 6400720431658, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.ZooTest.ShouldBeAbleFindAvailableNonEmptyEnclosureWithFriendlyAnimalOnly - 0c70751d-05c4-caaf-924b-9ba34c54766f' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.016, 6400720435977, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.016, 6400720437663, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.017, 6400720438412, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.ZooTest.ShouldBeAbleToHireAnEmployee - 805a8b20-2f44-acf8-0141-d595d56cd5f8' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.017, 6400720441853, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.017, 6400720443595, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.017, 6400720444448, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.ZooTest.ShouldBeAbleToHireAnEmployee - 805a8b20-2f44-acf8-0141-d595d56cd5f8' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.018, 6400720448575, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.018, 6400720450249, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.018, 6400720450995, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.ZooTest.ShouldBeAbleToCrateZoo - a72fe8d0-52cc-8666-8fee-cd771e8758df' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.018, 6400720454414, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.018, 6400720456138, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.018, 6400720456978, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.ZooTest.ShouldBeAbleToCrateZoo - a72fe8d0-52cc-8666-8fee-cd771e8758df' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.020, 6400720472696, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.020, 6400720476046, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.020, 6400720477187, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.ZooTest.ShouldBeAbleToAddEnclosure - 7d73076a-f107-a13e-d5f4-a8f15b887119' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.021, 6400720482251, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.021, 6400720484292, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.021, 6400720485383, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.ZooTest.ShouldBeAbleToAddEnclosure - 7d73076a-f107-a13e-d5f4-a8f15b887119' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.022, 6400720491217, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.022, 6400720493150, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.022, 6400720494015, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.ZooTest.ShouldThrowUnknownAnimalExceptionIfNoZooKeeperWithSuchAnimalExperience - 0496dafc-4547-2977-7cd9-4a8c3b441f69' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.023, 6400720497980, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.023, 6400720499969, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.023, 6400720500955, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.ZooTest.ShouldThrowUnknownAnimalExceptionIfNoZooKeeperWithSuchAnimalExperience - 0496dafc-4547-2977-7cd9-4a8c3b441f69' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.023, 6400720505785, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.031, 6400720586359, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.032, 6400720588206, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.ZooTest.ShouldBeAbleToFindAvailableEnclosure - 209f725e-b52c-bb6c-e4c1-cd2420e9365e' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.032, 6400720593034, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.032, 6400720595085, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.032, 6400720596059, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.ZooTest.ShouldBeAbleToFindAvailableEnclosure - 209f725e-b52c-bb6c-e4c1-cd2420e9365e' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.033, 6400720600571, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.033, 6400720602211, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.033, 6400720602992, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.ZooTest.ShouldBeUnableToAddEnclosureWithNameThatAlreadyExists - b8c9ec69-abff-b0f6-ad23-b1f9ac6896a0' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.033, 6400720606483, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.034, 6400720608145, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.034, 6400720609017, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.ZooTest.ShouldBeUnableToAddEnclosureWithNameThatAlreadyExists - b8c9ec69-abff-b0f6-ad23-b1f9ac6896a0' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.034, 6400720614708, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.034, 6400720616596, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.034, 6400720617482, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Animals.AnimalTest.AnimalCanBeSick - 45a8432a-d64f-3dd9-6c01-7a8502a49fce' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.035, 6400720623571, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.035, 6400720625306, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.035, 6400720626104, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Animals.AnimalTest.AnimalIsHungryWhenItIsCreated - 9be15755-d3e9-316b-baba-8e44a7c774e0' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.036, 6400720629704, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.036, 6400720631368, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.036, 6400720632215, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Animals.AnimalTest.AnimalIsHungryWhenItIsCreated - 9be15755-d3e9-316b-baba-8e44a7c774e0' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.036, 6400720636335, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.037, 6400720637923, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.037, 6400720638662, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Animals.AnimalTest.AnimalShouldNotBeAbleToAddFeedScheduleContainsNull - b1b7cfb7-f489-7d85-ab64-d36297464407' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.037, 6400720642226, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.037, 6400720643904, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.037, 6400720644736, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Animals.AnimalTest.AnimalShouldNotBeAbleToAddFeedScheduleContainsNull - b1b7cfb7-f489-7d85-ab64-d36297464407' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.038, 6400720648962, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.038, 6400720650592, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.038, 6400720651338, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Animals.AnimalTest.AnimalShouldBeAbleToAddFeedSchedule - e7361a23-55a7-a85b-a045-66575aee95ee' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.038, 6400720654672, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.038, 6400720656258, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.038, 6400720657050, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Animals.AnimalTest.AnimalShouldBeAbleToAddFeedSchedule - e7361a23-55a7-a85b-a045-66575aee95ee' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.039, 6400720660993, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.039, 6400720662593, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.039, 6400720663378, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Animals.AnimalTest.AnimalShouldNotBeAbleToAddFeedScheduleWithTheSameElements - a2560dd9-7d21-b4eb-dc2b-44d892c19261' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.039, 6400720667138, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.040, 6400720668810, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.040, 6400720669623, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Animals.AnimalTest.AnimalShouldNotBeAbleToAddFeedScheduleWithTheSameElements - a2560dd9-7d21-b4eb-dc2b-44d892c19261' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.041, 6400720680170, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.041, 6400720682117, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.041, 6400720682995, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Animals.AnimalTest.AnimalShouldNotBeHealedIfItIsHealthy - 6124181c-c0d3-f965-105d-d9f1ebfd659b' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.041, 6400720686517, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.042, 6400720688230, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.042, 6400720689104, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Animals.AnimalTest.AnimalShouldNotBeHealedIfItIsHealthy - 6124181c-c0d3-f965-105d-d9f1ebfd659b' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.042, 6400720693862, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.042, 6400720695517, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.042, 6400720696293, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Animals.AnimalTest.AnimalShouldBeHealedIfSick - 569c5930-8239-ecc8-fb16-e042f65f276e' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.043, 6400720699813, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.043, 6400720701705, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.043, 6400720702605, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Animals.AnimalTest.AnimalShouldBeHealedIfSick - 569c5930-8239-ecc8-fb16-e042f65f276e' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.043, 6400720706823, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.044, 6400720708424, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.044, 6400720709170, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Animals.AnimalTest.AnimalIsNotSickWhenItIsCreated - 0d434e80-96d1-65b2-aa02-63b5f26c9ee7' started.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.044, 6400720717020, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.045, 6400720723138, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.045, 6400720724520, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'ZooTest.Animals.AnimalTest.AnimalIsNotSickWhenItIsCreated - 0d434e80-96d1-65b2-aa02-63b5f26c9ee7' completed
+TpTrace Information: 0 : 33508, 8, 2021/06/21, 23:06:37.052, 6400720789955, datacollector.dll, DataCollectionTestCaseEventHandler: Test session ended
+TpTrace Information: 0 : 33508, 1, 2021/06/21, 23:06:37.100, 6400721271976, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : Datacollector received message: (DataCollection.AfterTestRunEnd) -> false
+TpTrace Information: 0 : 33508, 1, 2021/06/21, 23:06:37.101, 6400721286306, datacollector.dll, Blame Collector : Session End
+TpTrace Information: 0 : 33508, 1, 2021/06/21, 23:06:37.101, 6400721287137, datacollector.dll, BlameCollector.CollectDumpAndAbortTesthost: Custom path to dump directory was provided via VSTEST_DUMP_PATH. Skipping attachment upload, the caller is responsible for collecting and uploading the dumps themselves.
+TpTrace Information: 0 : 33508, 1, 2021/06/21, 23:06:37.102, 6400721288152, datacollector.dll, DataCollectionManager.CleanupPlugins: CleanupPlugins called
+TpTrace Verbose: 0 : 33508, 1, 2021/06/21, 23:06:37.102, 6400721288553, datacollector.dll, DataCollectionManager.CleanupPlugins: Cleaning up 1 plugins
+TpTrace Verbose: 0 : 33508, 1, 2021/06/21, 23:06:37.102, 6400721289497, datacollector.dll, dataCollectorInfo.DisposeDataCollector: calling Dispose() on Microsoft.TestPlatform.Extensions.BlameDataCollector.BlameCollector
+TpTrace Information: 0 : 33508, 1, 2021/06/21, 23:06:37.102, 6400721290143, datacollector.dll, DataCollectionManager.CleanupPlugins: CleanupPlugins finished
+TpTrace Information: 0 : 33508, 1, 2021/06/21, 23:06:37.105, 6400721325044, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : Session End message received from server. Closing the connection.
+TpTrace Information: 0 : 33508, 1, 2021/06/21, 23:06:37.105, 6400721326995, datacollector.dll, Closing the connection !
+TpTrace Information: 0 : 33508, 1, 2021/06/21, 23:06:37.106, 6400721328763, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : DataCollection completed
+TpTrace Information: 0 : 33508, 1, 2021/06/21, 23:06:37.106, 6400721329094, datacollector.dll, Program.Main: exiting datacollector process.

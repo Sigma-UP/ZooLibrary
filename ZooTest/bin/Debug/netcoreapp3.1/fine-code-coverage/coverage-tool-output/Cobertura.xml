@@ -1,0 +1,2728 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage line-rate="0.9988571428571429" branch-rate="0.8701298701298701" lines-covered="874" lines-valid="875" branches-covered="134" branches-valid="154" complexity="293" version="0" timestamp="1624316797">
+  <sources>
+    <source>D:\1. WORK\ANKO\Zoo Lab\</source>
+    <source>C:\</source>
+  </sources>
+  <packages>
+    <package name="ZooLib" line-rate="1" branch-rate="0.8701298701298701" complexity="227">
+      <classes>
+        <class name="ZooLib.Animals.Animal" filename="D:\1. WORK\ANKO\Zoo Lab\ZooLib\Animals\Animal.cs" line-rate="1" branch-rate="0.7777777777777778" complexity="42">
+          <methods>
+            <method name="get_IsSick" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="135" branch="false" />
+              </lines>
+            </method>
+            <method name="get_FeedTimes" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="28" hits="123" branch="false" />
+              </lines>
+            </method>
+            <method name="get_FeedSchedule" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="30" hits="189" branch="false" />
+              </lines>
+            </method>
+            <method name="get_ID" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="32" hits="109" branch="false" />
+              </lines>
+            </method>
+            <method name="IsHungry" signature="(...)" line-rate="1" branch-rate="0.8333333333333334" complexity="6">
+              <lines>
+                <line number="35" hits="9" branch="false" />
+                <line number="36" hits="9" branch="false" />
+                <line number="37" hits="9" branch="true" condition-coverage="100% (4/4)" />
+                <line number="38" hits="7" branch="false" />
+                <line number="39" hits="7" branch="false" />
+                <line number="42" hits="2" branch="true" condition-coverage="50% (1/2)" />
+                <line number="43" hits="2" branch="false" />
+                <line number="44" hits="9" branch="false" />
+              </lines>
+            </method>
+            <method name="Feed" signature="(...)" line-rate="1" branch-rate="0.8" complexity="10">
+              <lines>
+                <line number="47" hits="13" branch="false" />
+                <line number="48" hits="13" branch="true" condition-coverage="100% (2/2)" />
+                <line number="49" hits="1" branch="false" />
+                <line number="50" hits="1" branch="true" condition-coverage="50% (1/2)" />
+                <line number="51" hits="1" branch="false" />
+                <line number="53" hits="12" branch="true" condition-coverage="100% (2/2)" />
+                <line number="54" hits="11" branch="false" />
+                <line number="55" hits="11" branch="false" />
+                <line number="56" hits="11" branch="true" condition-coverage="100% (2/2)" />
+                <line number="57" hits="11" branch="false" />
+                <line number="59" hits="1" branch="false" />
+                <line number="60" hits="1" branch="true" condition-coverage="50% (1/2)" />
+                <line number="61" hits="1" branch="false" />
+                <line number="63" hits="11" branch="false" />
+              </lines>
+            </method>
+            <method name="AddFeedSchedule" signature="(...)" line-rate="1" branch-rate="0.7857142857142857" complexity="14">
+              <lines>
+                <line number="65" hits="4" branch="false" />
+                <line number="66" hits="4" branch="true" condition-coverage="100% (2/2)" />
+                <line number="67" hits="1" branch="false" />
+                <line number="68" hits="1" branch="true" condition-coverage="50% (1/2)" />
+                <line number="69" hits="1" branch="false" />
+                <line number="72" hits="3" branch="false" />
+                <line number="73" hits="21" branch="true" condition-coverage="100% (2/2)" />
+                <line number="74" hits="6" branch="true" condition-coverage="100% (2/2)" />
+                <line number="75" hits="2" branch="false" />
+                <line number="76" hits="2" branch="false" />
+                <line number="77" hits="2" branch="false" />
+                <line number="78" hits="2" branch="false" />
+                <line number="79" hits="3" branch="true" condition-coverage="100% (2/2)" />
+                <line number="80" hits="2" branch="true" condition-coverage="50% (1/2)" />
+                <line number="82" hits="1" branch="false" />
+                <line number="83" hits="1" branch="true" condition-coverage="50% (1/2)" />
+                <line number="84" hits="1" branch="false" />
+                <line number="86" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="Heal" signature="(...)" line-rate="1" branch-rate="0.6666666666666666" complexity="6">
+              <lines>
+                <line number="88" hits="2" branch="false" />
+                <line number="89" hits="2" branch="true" condition-coverage="100% (2/2)" />
+                <line number="90" hits="1" branch="false" />
+                <line number="91" hits="1" branch="true" condition-coverage="50% (1/2)" />
+                <line number="92" hits="1" branch="false" />
+                <line number="94" hits="1" branch="false" />
+                <line number="95" hits="1" branch="true" condition-coverage="50% (1/2)" />
+                <line number="96" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="87" branch="false" />
+                <line number="14" hits="87" branch="false" />
+                <line number="15" hits="87" branch="false" />
+                <line number="16" hits="87" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="9" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="87" branch="false" />
+            <line number="14" hits="87" branch="false" />
+            <line number="15" hits="87" branch="false" />
+            <line number="16" hits="87" branch="false" />
+            <line number="18" hits="9" branch="false" />
+            <line number="20" hits="135" branch="false" />
+            <line number="28" hits="123" branch="false" />
+            <line number="30" hits="189" branch="false" />
+            <line number="32" hits="109" branch="false" />
+            <line number="35" hits="9" branch="false" />
+            <line number="36" hits="9" branch="false" />
+            <line number="37" hits="9" branch="true" condition-coverage="100% (4/4)" />
+            <line number="38" hits="7" branch="false" />
+            <line number="39" hits="7" branch="false" />
+            <line number="42" hits="2" branch="true" condition-coverage="50% (1/2)" />
+            <line number="43" hits="2" branch="false" />
+            <line number="44" hits="9" branch="false" />
+            <line number="47" hits="13" branch="false" />
+            <line number="48" hits="13" branch="true" condition-coverage="100% (2/2)" />
+            <line number="49" hits="1" branch="false" />
+            <line number="50" hits="1" branch="true" condition-coverage="50% (1/2)" />
+            <line number="51" hits="1" branch="false" />
+            <line number="53" hits="12" branch="true" condition-coverage="100% (2/2)" />
+            <line number="54" hits="11" branch="false" />
+            <line number="55" hits="11" branch="false" />
+            <line number="56" hits="11" branch="true" condition-coverage="100% (2/2)" />
+            <line number="57" hits="11" branch="false" />
+            <line number="59" hits="1" branch="false" />
+            <line number="60" hits="1" branch="true" condition-coverage="50% (1/2)" />
+            <line number="61" hits="1" branch="false" />
+            <line number="63" hits="11" branch="false" />
+            <line number="65" hits="4" branch="false" />
+            <line number="66" hits="4" branch="true" condition-coverage="100% (2/2)" />
+            <line number="67" hits="1" branch="false" />
+            <line number="68" hits="1" branch="true" condition-coverage="50% (1/2)" />
+            <line number="69" hits="1" branch="false" />
+            <line number="72" hits="3" branch="false" />
+            <line number="73" hits="21" branch="true" condition-coverage="100% (2/2)" />
+            <line number="74" hits="6" branch="true" condition-coverage="100% (2/2)" />
+            <line number="75" hits="2" branch="false" />
+            <line number="76" hits="2" branch="false" />
+            <line number="77" hits="2" branch="false" />
+            <line number="78" hits="2" branch="false" />
+            <line number="79" hits="3" branch="true" condition-coverage="100% (2/2)" />
+            <line number="80" hits="2" branch="true" condition-coverage="50% (1/2)" />
+            <line number="82" hits="1" branch="false" />
+            <line number="83" hits="1" branch="true" condition-coverage="50% (1/2)" />
+            <line number="84" hits="1" branch="false" />
+            <line number="86" hits="2" branch="false" />
+            <line number="88" hits="2" branch="false" />
+            <line number="89" hits="2" branch="true" condition-coverage="100% (2/2)" />
+            <line number="90" hits="1" branch="false" />
+            <line number="91" hits="1" branch="true" condition-coverage="50% (1/2)" />
+            <line number="92" hits="1" branch="false" />
+            <line number="94" hits="1" branch="false" />
+            <line number="95" hits="1" branch="true" condition-coverage="50% (1/2)" />
+            <line number="96" hits="2" branch="false" />
+          </lines>
+        </class>
+        <class name="ZooLib.Animals.Birds.Bird" filename="D:\1. WORK\ANKO\Zoo Lab\ZooLib\Animals\Birds\Bird.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="27" branch="false" />
+                <line number="7" hits="27" branch="false" />
+                <line number="8" hits="27" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="6" hits="27" branch="false" />
+            <line number="7" hits="27" branch="false" />
+            <line number="8" hits="27" branch="false" />
+          </lines>
+        </class>
+        <class name="ZooLib.Animals.Birds.Parrot" filename="D:\1. WORK\ANKO\Zoo Lab\ZooLib\Animals\Birds\Parrot.cs" line-rate="1" branch-rate="1" complexity="6">
+          <methods>
+            <method name="get_RequiredSpaceSqFt" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="33" branch="false" />
+              </lines>
+            </method>
+            <method name="get_FavoriteFood" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="33" branch="false" />
+              </lines>
+            </method>
+            <method name="get_FriendlyWith" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="30" branch="false" />
+              </lines>
+            </method>
+            <method name="IsFriendlyWith" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="8" branch="false" />
+                <line number="22" hits="8" branch="false" />
+                <line number="23" hits="8" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="8" hits="22" branch="false" />
+                <line number="9" hits="22" branch="false" />
+                <line number="10" hits="22" branch="false" />
+                <line number="11" hits="22" branch="true" condition-coverage="100% (2/2)" />
+                <line number="12" hits="22" branch="false" />
+                <line number="13" hits="33" branch="false" />
+                <line number="14" hits="33" branch="false" />
+                <line number="15" hits="30" branch="false" />
+                <line number="16" hits="22" branch="false" />
+                <line number="17" hits="22" branch="false" />
+                <line number="18" hits="22" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="22" branch="false" />
+            <line number="9" hits="22" branch="false" />
+            <line number="10" hits="22" branch="false" />
+            <line number="11" hits="22" branch="true" condition-coverage="100% (2/2)" />
+            <line number="12" hits="22" branch="false" />
+            <line number="13" hits="33" branch="false" />
+            <line number="14" hits="33" branch="false" />
+            <line number="15" hits="30" branch="false" />
+            <line number="16" hits="22" branch="false" />
+            <line number="17" hits="22" branch="false" />
+            <line number="18" hits="22" branch="false" />
+            <line number="21" hits="8" branch="false" />
+            <line number="22" hits="8" branch="false" />
+            <line number="23" hits="8" branch="false" />
+          </lines>
+        </class>
+        <class name="ZooLib.Animals.Birds.Penguin" filename="D:\1. WORK\ANKO\Zoo Lab\ZooLib\Animals\Birds\Penguin.cs" line-rate="1" branch-rate="1" complexity="6">
+          <methods>
+            <method name="get_RequiredSpaceSqFt" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="10" branch="false" />
+              </lines>
+            </method>
+            <method name="get_FavoriteFood" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="14" branch="false" />
+              </lines>
+            </method>
+            <method name="get_FriendlyWith" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="8" branch="false" />
+              </lines>
+            </method>
+            <method name="IsFriendlyWith" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="3" branch="false" />
+                <line number="20" hits="3" branch="false" />
+                <line number="21" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="7" hits="5" branch="false" />
+                <line number="8" hits="5" branch="false" />
+                <line number="9" hits="5" branch="false" />
+                <line number="10" hits="5" branch="true" condition-coverage="100% (2/2)" />
+                <line number="11" hits="5" branch="false" />
+                <line number="12" hits="10" branch="false" />
+                <line number="13" hits="14" branch="false" />
+                <line number="14" hits="8" branch="false" />
+                <line number="15" hits="5" branch="false" />
+                <line number="16" hits="5" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="7" hits="5" branch="false" />
+            <line number="8" hits="5" branch="false" />
+            <line number="9" hits="5" branch="false" />
+            <line number="10" hits="5" branch="true" condition-coverage="100% (2/2)" />
+            <line number="11" hits="5" branch="false" />
+            <line number="12" hits="10" branch="false" />
+            <line number="13" hits="14" branch="false" />
+            <line number="14" hits="8" branch="false" />
+            <line number="15" hits="5" branch="false" />
+            <line number="16" hits="5" branch="false" />
+            <line number="19" hits="3" branch="false" />
+            <line number="20" hits="3" branch="false" />
+            <line number="21" hits="3" branch="false" />
+          </lines>
+        </class>
+        <class name="ZooLib.Animals.Mammals.Bison" filename="D:\1. WORK\ANKO\Zoo Lab\ZooLib\Animals\Mammals\Bison.cs" line-rate="1" branch-rate="1" complexity="6">
+          <methods>
+            <method name="get_RequiredSpaceSqFt" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="7" branch="false" />
+              </lines>
+            </method>
+            <method name="get_FavoriteFood" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="6" branch="false" />
+              </lines>
+            </method>
+            <method name="get_FriendlyWith" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="7" branch="false" />
+              </lines>
+            </method>
+            <method name="IsFriendlyWith" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="2" branch="false" />
+                <line number="20" hits="2" branch="false" />
+                <line number="21" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="7" hits="5" branch="false" />
+                <line number="8" hits="5" branch="false" />
+                <line number="9" hits="5" branch="false" />
+                <line number="10" hits="5" branch="true" condition-coverage="100% (2/2)" />
+                <line number="11" hits="5" branch="false" />
+                <line number="12" hits="7" branch="false" />
+                <line number="13" hits="6" branch="false" />
+                <line number="14" hits="7" branch="false" />
+                <line number="15" hits="5" branch="false" />
+                <line number="16" hits="5" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="7" hits="5" branch="false" />
+            <line number="8" hits="5" branch="false" />
+            <line number="9" hits="5" branch="false" />
+            <line number="10" hits="5" branch="true" condition-coverage="100% (2/2)" />
+            <line number="11" hits="5" branch="false" />
+            <line number="12" hits="7" branch="false" />
+            <line number="13" hits="6" branch="false" />
+            <line number="14" hits="7" branch="false" />
+            <line number="15" hits="5" branch="false" />
+            <line number="16" hits="5" branch="false" />
+            <line number="19" hits="2" branch="false" />
+            <line number="20" hits="2" branch="false" />
+            <line number="21" hits="2" branch="false" />
+          </lines>
+        </class>
+        <class name="ZooLib.Animals.Mammals.Elephant" filename="D:\1. WORK\ANKO\Zoo Lab\ZooLib\Animals\Mammals\Elephant.cs" line-rate="1" branch-rate="1" complexity="6">
+          <methods>
+            <method name="get_RequiredSpaceSqFt" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="30" branch="false" />
+              </lines>
+            </method>
+            <method name="get_FavoriteFood" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="18" branch="false" />
+              </lines>
+            </method>
+            <method name="get_FriendlyWith" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="27" branch="false" />
+              </lines>
+            </method>
+            <method name="IsFriendlyWith" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="10" branch="false" />
+                <line number="20" hits="10" branch="false" />
+                <line number="21" hits="10" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="6" hits="17" branch="false" />
+                <line number="7" hits="17" branch="false" />
+                <line number="8" hits="17" branch="false" />
+                <line number="9" hits="17" branch="true" condition-coverage="100% (2/2)" />
+                <line number="10" hits="17" branch="false" />
+                <line number="11" hits="30" branch="false" />
+                <line number="12" hits="18" branch="false" />
+                <line number="13" hits="27" branch="false" />
+                <line number="14" hits="17" branch="false" />
+                <line number="15" hits="17" branch="false" />
+                <line number="16" hits="17" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="6" hits="17" branch="false" />
+            <line number="7" hits="17" branch="false" />
+            <line number="8" hits="17" branch="false" />
+            <line number="9" hits="17" branch="true" condition-coverage="100% (2/2)" />
+            <line number="10" hits="17" branch="false" />
+            <line number="11" hits="30" branch="false" />
+            <line number="12" hits="18" branch="false" />
+            <line number="13" hits="27" branch="false" />
+            <line number="14" hits="17" branch="false" />
+            <line number="15" hits="17" branch="false" />
+            <line number="16" hits="17" branch="false" />
+            <line number="19" hits="10" branch="false" />
+            <line number="20" hits="10" branch="false" />
+            <line number="21" hits="10" branch="false" />
+          </lines>
+        </class>
+        <class name="ZooLib.Animals.Mammals.Lion" filename="D:\1. WORK\ANKO\Zoo Lab\ZooLib\Animals\Mammals\Lion.cs" line-rate="1" branch-rate="1" complexity="6">
+          <methods>
+            <method name="get_RequiredSpaceSqFt" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="43" branch="false" />
+              </lines>
+            </method>
+            <method name="get_FavoriteFood" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="31" branch="false" />
+              </lines>
+            </method>
+            <method name="get_FriendlyWith" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="28" branch="false" />
+              </lines>
+            </method>
+            <method name="IsFriendlyWith" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="2" branch="false" />
+                <line number="19" hits="2" branch="false" />
+                <line number="20" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="7" hits="26" branch="false" />
+                <line number="8" hits="26" branch="false" />
+                <line number="9" hits="26" branch="false" />
+                <line number="10" hits="26" branch="true" condition-coverage="100% (2/2)" />
+                <line number="11" hits="26" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="7" hits="26" branch="false" />
+            <line number="8" hits="26" branch="false" />
+            <line number="9" hits="26" branch="false" />
+            <line number="10" hits="26" branch="true" condition-coverage="100% (2/2)" />
+            <line number="11" hits="26" branch="false" />
+            <line number="13" hits="43" branch="false" />
+            <line number="14" hits="31" branch="false" />
+            <line number="15" hits="28" branch="false" />
+            <line number="18" hits="2" branch="false" />
+            <line number="19" hits="2" branch="false" />
+            <line number="20" hits="2" branch="false" />
+          </lines>
+        </class>
+        <class name="ZooLib.Animals.Mammals.Mammal" filename="D:\1. WORK\ANKO\Zoo Lab\ZooLib\Animals\Mammals\Mammal.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="48" branch="false" />
+                <line number="7" hits="48" branch="false" />
+                <line number="8" hits="48" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="6" hits="48" branch="false" />
+            <line number="7" hits="48" branch="false" />
+            <line number="8" hits="48" branch="false" />
+          </lines>
+        </class>
+        <class name="ZooLib.Animals.Reptiles.Reptile" filename="D:\1. WORK\ANKO\Zoo Lab\ZooLib\Animals\Reptiles\Reptile.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="7" branch="false" />
+                <line number="7" hits="7" branch="false" />
+                <line number="8" hits="7" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="6" hits="7" branch="false" />
+            <line number="7" hits="7" branch="false" />
+            <line number="8" hits="7" branch="false" />
+          </lines>
+        </class>
+        <class name="ZooLib.Animals.Reptiles.Snake" filename="D:\1. WORK\ANKO\Zoo Lab\ZooLib\Animals\Reptiles\Snake.cs" line-rate="1" branch-rate="1" complexity="6">
+          <methods>
+            <method name="get_RequiredSpaceSqFt" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name="get_FavoriteFood" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name="get_FriendlyWith" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="4" branch="false" />
+              </lines>
+            </method>
+            <method name="IsFriendlyWith" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="2" branch="false" />
+                <line number="19" hits="2" branch="false" />
+                <line number="20" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="6" hits="2" branch="false" />
+                <line number="7" hits="2" branch="false" />
+                <line number="8" hits="2" branch="false" />
+                <line number="9" hits="2" branch="true" condition-coverage="100% (2/2)" />
+                <line number="10" hits="2" branch="false" />
+                <line number="11" hits="3" branch="false" />
+                <line number="12" hits="3" branch="false" />
+                <line number="13" hits="4" branch="false" />
+                <line number="14" hits="2" branch="false" />
+                <line number="15" hits="2" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="6" hits="2" branch="false" />
+            <line number="7" hits="2" branch="false" />
+            <line number="8" hits="2" branch="false" />
+            <line number="9" hits="2" branch="true" condition-coverage="100% (2/2)" />
+            <line number="10" hits="2" branch="false" />
+            <line number="11" hits="3" branch="false" />
+            <line number="12" hits="3" branch="false" />
+            <line number="13" hits="4" branch="false" />
+            <line number="14" hits="2" branch="false" />
+            <line number="15" hits="2" branch="false" />
+            <line number="18" hits="2" branch="false" />
+            <line number="19" hits="2" branch="false" />
+            <line number="20" hits="2" branch="false" />
+          </lines>
+        </class>
+        <class name="ZooLib.Animals.Reptiles.Turtle" filename="D:\1. WORK\ANKO\Zoo Lab\ZooLib\Animals\Reptiles\Turtle.cs" line-rate="1" branch-rate="1" complexity="6">
+          <methods>
+            <method name="get_RequiredSpaceSqFt" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="7" branch="false" />
+              </lines>
+            </method>
+            <method name="get_FavoriteFood" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="6" branch="false" />
+              </lines>
+            </method>
+            <method name="get_FriendlyWith" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="10" branch="false" />
+              </lines>
+            </method>
+            <method name="IsFriendlyWith" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="5" branch="false" />
+                <line number="20" hits="5" branch="false" />
+                <line number="21" hits="5" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="6" hits="5" branch="false" />
+                <line number="7" hits="5" branch="false" />
+                <line number="8" hits="5" branch="false" />
+                <line number="9" hits="5" branch="true" condition-coverage="100% (2/2)" />
+                <line number="10" hits="5" branch="false" />
+                <line number="11" hits="7" branch="false" />
+                <line number="12" hits="6" branch="false" />
+                <line number="13" hits="10" branch="false" />
+                <line number="14" hits="5" branch="false" />
+                <line number="15" hits="5" branch="false" />
+                <line number="16" hits="5" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="6" hits="5" branch="false" />
+            <line number="7" hits="5" branch="false" />
+            <line number="8" hits="5" branch="false" />
+            <line number="9" hits="5" branch="true" condition-coverage="100% (2/2)" />
+            <line number="10" hits="5" branch="false" />
+            <line number="11" hits="7" branch="false" />
+            <line number="12" hits="6" branch="false" />
+            <line number="13" hits="10" branch="false" />
+            <line number="14" hits="5" branch="false" />
+            <line number="15" hits="5" branch="false" />
+            <line number="16" hits="5" branch="false" />
+            <line number="19" hits="5" branch="false" />
+            <line number="20" hits="5" branch="false" />
+            <line number="21" hits="5" branch="false" />
+          </lines>
+        </class>
+        <class name="ZooLib.Console.ZooConsole" filename="D:\1. WORK\ANKO\Zoo Lab\ZooLib\Console\ZooConsole.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_Messages" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="76" branch="false" />
+              </lines>
+            </method>
+            <method name="WriteLine" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="43" branch="false" />
+                <line number="11" hits="43" branch="false" />
+                <line number="12" hits="43" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="7" hits="76" branch="false" />
+            <line number="10" hits="43" branch="false" />
+            <line number="11" hits="43" branch="false" />
+            <line number="12" hits="43" branch="false" />
+          </lines>
+        </class>
+        <class name="ZooLib.Employees.Validators.Errors.NoNeededAnimalExperienceError" filename="D:\1. WORK\ANKO\Zoo Lab\ZooLib\Employees\Validators\Errors\NoNeededAnimalExperienceError.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="21" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="21" branch="false" />
+          </lines>
+        </class>
+        <class name="ZooLib.Employees.Validators.Errors.ValidationError" filename="D:\1. WORK\ANKO\Zoo Lab\ZooLib\Employees\Validators\Errors\ValidationError.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_Message" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="7" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Property" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="7" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="7" branch="false" />
+                <line number="8" hits="7" branch="false" />
+                <line number="9" hits="7" branch="false" />
+                <line number="10" hits="7" branch="false" />
+                <line number="11" hits="7" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="7" branch="false" />
+            <line number="6" hits="7" branch="false" />
+            <line number="7" hits="7" branch="false" />
+            <line number="8" hits="7" branch="false" />
+            <line number="9" hits="7" branch="false" />
+            <line number="10" hits="7" branch="false" />
+            <line number="11" hits="7" branch="false" />
+          </lines>
+        </class>
+        <class name="ZooLib.Employees.Validators.HireValidatorProvider" filename="D:\1. WORK\ANKO\Zoo Lab\ZooLib\Employees\Validators\HireValidatorProvider.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="GetHireValidator" signature="(...)" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="10" hits="13" branch="false" />
+                <line number="11" hits="13" branch="true" condition-coverage="100% (2/2)" />
+                <line number="12" hits="5" branch="false" />
+                <line number="13" hits="8" branch="true" condition-coverage="100% (2/2)" />
+                <line number="14" hits="7" branch="false" />
+                <line number="15" hits="1" branch="false" />
+                <line number="16" hits="12" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="13" branch="false" />
+            <line number="11" hits="13" branch="true" condition-coverage="100% (2/2)" />
+            <line number="12" hits="5" branch="false" />
+            <line number="13" hits="8" branch="true" condition-coverage="100% (2/2)" />
+            <line number="14" hits="7" branch="false" />
+            <line number="15" hits="1" branch="false" />
+            <line number="16" hits="12" branch="false" />
+          </lines>
+        </class>
+        <class name="ZooLib.Employees.Validators.VeterinarianHireValidator" filename="D:\1. WORK\ANKO\Zoo Lab\ZooLib\Employees\Validators\VeterinarianHireValidator.cs" line-rate="1" branch-rate="1" complexity="6">
+          <methods>
+            <method name="ValidateEmployee" signature="(...)" line-rate="1" branch-rate="1" complexity="6">
+              <lines>
+                <line number="10" hits="6" branch="false" />
+                <line number="11" hits="6" branch="false" />
+                <line number="13" hits="6" branch="false" />
+                <line number="14" hits="31" branch="true" condition-coverage="100% (2/2)" />
+                <line number="15" hits="29" branch="true" condition-coverage="100% (2/2)" />
+                <line number="16" hits="4" branch="true" condition-coverage="100% (2/2)" />
+                <line number="17" hits="3" branch="false" />
+                <line number="18" hits="3" branch="false" />
+                <line number="20" hits="3" branch="false" />
+                <line number="21" hits="3" branch="false" />
+                <line number="22" hits="3" branch="false" />
+                <line number="23" hits="3" branch="false" />
+                <line number="24" hits="3" branch="false" />
+                <line number="25" hits="6" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="6" branch="false" />
+            <line number="11" hits="6" branch="false" />
+            <line number="13" hits="6" branch="false" />
+            <line number="14" hits="31" branch="true" condition-coverage="100% (2/2)" />
+            <line number="15" hits="29" branch="true" condition-coverage="100% (2/2)" />
+            <line number="16" hits="4" branch="true" condition-coverage="100% (2/2)" />
+            <line number="17" hits="3" branch="false" />
+            <line number="18" hits="3" branch="false" />
+            <line number="20" hits="3" branch="false" />
+            <line number="21" hits="3" branch="false" />
+            <line number="22" hits="3" branch="false" />
+            <line number="23" hits="3" branch="false" />
+            <line number="24" hits="3" branch="false" />
+            <line number="25" hits="6" branch="false" />
+          </lines>
+        </class>
+        <class name="ZooLib.Employees.Validators.ZooKeeperHireValidator" filename="D:\1. WORK\ANKO\Zoo Lab\ZooLib\Employees\Validators\ZooKeeperHireValidator.cs" line-rate="1" branch-rate="1" complexity="6">
+          <methods>
+            <method name="ValidateEmployee" signature="(...)" line-rate="1" branch-rate="1" complexity="6">
+              <lines>
+                <line number="9" hits="8" branch="false" />
+                <line number="10" hits="8" branch="false" />
+                <line number="12" hits="8" branch="false" />
+                <line number="13" hits="34" branch="true" condition-coverage="100% (2/2)" />
+                <line number="14" hits="34" branch="true" condition-coverage="100% (2/2)" />
+                <line number="15" hits="8" branch="true" condition-coverage="100% (2/2)" />
+                <line number="16" hits="6" branch="false" />
+                <line number="17" hits="2" branch="false" />
+                <line number="19" hits="2" branch="false" />
+                <line number="20" hits="2" branch="false" />
+                <line number="21" hits="2" branch="false" />
+                <line number="22" hits="2" branch="false" />
+                <line number="23" hits="2" branch="false" />
+                <line number="24" hits="8" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="8" branch="false" />
+            <line number="10" hits="8" branch="false" />
+            <line number="12" hits="8" branch="false" />
+            <line number="13" hits="34" branch="true" condition-coverage="100% (2/2)" />
+            <line number="14" hits="34" branch="true" condition-coverage="100% (2/2)" />
+            <line number="15" hits="8" branch="true" condition-coverage="100% (2/2)" />
+            <line number="16" hits="6" branch="false" />
+            <line number="17" hits="2" branch="false" />
+            <line number="19" hits="2" branch="false" />
+            <line number="20" hits="2" branch="false" />
+            <line number="21" hits="2" branch="false" />
+            <line number="22" hits="2" branch="false" />
+            <line number="23" hits="2" branch="false" />
+            <line number="24" hits="8" branch="false" />
+          </lines>
+        </class>
+        <class name="ZooLib.Employees.Veterinarian" filename="D:\1. WORK\ANKO\Zoo Lab\ZooLib\Employees\Veterinarian.cs" line-rate="1" branch-rate="0.8" complexity="15">
+          <methods>
+            <method name="get_FirstName" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="20" branch="false" />
+              </lines>
+            </method>
+            <method name="get_LastName" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="20" branch="false" />
+              </lines>
+            </method>
+            <method name="get_AnimalExperiences" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="29" branch="false" />
+              </lines>
+            </method>
+            <method name="AddAnimalExperience" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="23" hits="1" branch="false" />
+                <line number="24" hits="1" branch="true" condition-coverage="100% (2/2)" />
+                <line number="25" hits="1" branch="false" />
+                <line number="26" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="HasAnimalExperience" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="27" hits="12" branch="false" />
+              </lines>
+            </method>
+            <method name="HealAnimal" signature="(...)" line-rate="1" branch-rate="0.75" complexity="8">
+              <lines>
+                <line number="30" hits="6" branch="false" />
+                <line number="31" hits="6" branch="true" condition-coverage="100% (4/4)" />
+                <line number="32" hits="5" branch="false" />
+                <line number="33" hits="5" branch="false" />
+                <line number="34" hits="5" branch="true" condition-coverage="50% (1/2)" />
+                <line number="35" hits="5" branch="false" />
+                <line number="37" hits="1" branch="true" condition-coverage="50% (1/2)" />
+                <line number="38" hits="6" branch="false" />
+                <line number="39" hits="6" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="11" branch="false" />
+                <line number="11" hits="11" branch="false" />
+                <line number="12" hits="11" branch="false" />
+                <line number="13" hits="11" branch="false" />
+                <line number="14" hits="11" branch="false" />
+                <line number="15" hits="11" branch="false" />
+                <line number="16" hits="11" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="11" branch="false" />
+            <line number="11" hits="11" branch="false" />
+            <line number="12" hits="11" branch="false" />
+            <line number="13" hits="11" branch="false" />
+            <line number="14" hits="11" branch="false" />
+            <line number="15" hits="11" branch="false" />
+            <line number="16" hits="11" branch="false" />
+            <line number="18" hits="20" branch="false" />
+            <line number="19" hits="20" branch="false" />
+            <line number="20" hits="29" branch="false" />
+            <line number="23" hits="1" branch="false" />
+            <line number="24" hits="1" branch="true" condition-coverage="100% (2/2)" />
+            <line number="25" hits="1" branch="false" />
+            <line number="26" hits="1" branch="false" />
+            <line number="27" hits="12" branch="false" />
+            <line number="30" hits="6" branch="false" />
+            <line number="31" hits="6" branch="true" condition-coverage="100% (4/4)" />
+            <line number="32" hits="5" branch="false" />
+            <line number="33" hits="5" branch="false" />
+            <line number="34" hits="5" branch="true" condition-coverage="50% (1/2)" />
+            <line number="35" hits="5" branch="false" />
+            <line number="37" hits="1" branch="true" condition-coverage="50% (1/2)" />
+            <line number="38" hits="6" branch="false" />
+            <line number="39" hits="6" branch="false" />
+          </lines>
+        </class>
+        <class name="ZooLib.Employees.ZooKeeper" filename="D:\1. WORK\ANKO\Zoo Lab\ZooLib\Employees\ZooKeeper.cs" line-rate="1" branch-rate="0.8333333333333334" complexity="11">
+          <methods>
+            <method name="get_FirstName" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="27" branch="false" />
+              </lines>
+            </method>
+            <method name="get_LastName" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="27" branch="false" />
+              </lines>
+            </method>
+            <method name="get_AnimalExperiences" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="22" hits="59" branch="false" />
+              </lines>
+            </method>
+            <method name="AddAnimalExperience" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="25" hits="1" branch="false" />
+                <line number="26" hits="1" branch="true" condition-coverage="100% (2/2)" />
+                <line number="27" hits="1" branch="false" />
+                <line number="28" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="HasAnimalExperience" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="29" hits="33" branch="false" />
+              </lines>
+            </method>
+            <method name="FeedAnimal" signature="(...)" line-rate="1" branch-rate="0.75" complexity="4">
+              <lines>
+                <line number="31" hits="11" branch="false" />
+                <line number="32" hits="11" branch="true" condition-coverage="100% (2/2)" />
+                <line number="33" hits="1" branch="false" />
+                <line number="34" hits="1" branch="false" />
+                <line number="37" hits="10" branch="false" />
+                <line number="38" hits="10" branch="false" />
+                <line number="39" hits="10" branch="false" />
+                <line number="40" hits="10" branch="false" />
+                <line number="41" hits="10" branch="true" condition-coverage="50% (1/2)" />
+                <line number="43" hits="10" branch="false" />
+                <line number="44" hits="11" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="16" branch="false" />
+                <line number="13" hits="16" branch="false" />
+                <line number="14" hits="16" branch="false" />
+                <line number="15" hits="16" branch="false" />
+                <line number="16" hits="16" branch="false" />
+                <line number="17" hits="16" branch="false" />
+                <line number="18" hits="16" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="16" branch="false" />
+            <line number="13" hits="16" branch="false" />
+            <line number="14" hits="16" branch="false" />
+            <line number="15" hits="16" branch="false" />
+            <line number="16" hits="16" branch="false" />
+            <line number="17" hits="16" branch="false" />
+            <line number="18" hits="16" branch="false" />
+            <line number="20" hits="27" branch="false" />
+            <line number="21" hits="27" branch="false" />
+            <line number="22" hits="59" branch="false" />
+            <line number="25" hits="1" branch="false" />
+            <line number="26" hits="1" branch="true" condition-coverage="100% (2/2)" />
+            <line number="27" hits="1" branch="false" />
+            <line number="28" hits="1" branch="false" />
+            <line number="29" hits="33" branch="false" />
+            <line number="31" hits="11" branch="false" />
+            <line number="32" hits="11" branch="true" condition-coverage="100% (2/2)" />
+            <line number="33" hits="1" branch="false" />
+            <line number="34" hits="1" branch="false" />
+            <line number="37" hits="10" branch="false" />
+            <line number="38" hits="10" branch="false" />
+            <line number="39" hits="10" branch="false" />
+            <line number="40" hits="10" branch="false" />
+            <line number="41" hits="10" branch="true" condition-coverage="50% (1/2)" />
+            <line number="43" hits="10" branch="false" />
+            <line number="44" hits="11" branch="false" />
+          </lines>
+        </class>
+        <class name="ZooLib.Enclosure" filename="D:\1. WORK\ANKO\Zoo Lab\ZooLib\Enclosure.cs" line-rate="1" branch-rate="1" complexity="17">
+          <methods>
+            <method name="get_Name" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="52" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Animals" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="139" branch="false" />
+              </lines>
+            </method>
+            <method name="get_ParentZoo" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="32" branch="false" />
+              </lines>
+            </method>
+            <method name="get_SquareFeet" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="61" branch="false" />
+              </lines>
+            </method>
+            <method name="AvailableSpace" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="24" hits="29" branch="false" />
+                <line number="25" hits="29" branch="false" />
+                <line number="26" hits="119" branch="true" condition-coverage="100% (2/2)" />
+                <line number="27" hits="16" branch="false" />
+                <line number="28" hits="29" branch="false" />
+                <line number="29" hits="29" branch="false" />
+              </lines>
+            </method>
+            <method name="AddAnimals" signature="(...)" line-rate="1" branch-rate="1" complexity="10">
+              <lines>
+                <line number="32" hits="25" branch="false" />
+                <line number="33" hits="25" branch="true" condition-coverage="100% (2/2)" />
+                <line number="34" hits="2" branch="false" />
+                <line number="35" hits="2" branch="true" condition-coverage="100% (2/2)" />
+                <line number="36" hits="2" branch="false" />
+                <line number="37" hits="2" branch="false" />
+                <line number="39" hits="81" branch="true" condition-coverage="100% (2/2)" />
+                <line number="40" hits="7" branch="true" condition-coverage="100% (2/2)" />
+                <line number="41" hits="2" branch="false" />
+                <line number="42" hits="2" branch="true" condition-coverage="100% (2/2)" />
+                <line number="43" hits="2" branch="false" />
+                <line number="44" hits="2" branch="false" />
+                <line number="47" hits="21" branch="false" />
+                <line number="48" hits="21" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="31" branch="false" />
+                <line number="10" hits="31" branch="false" />
+                <line number="11" hits="31" branch="false" />
+                <line number="12" hits="31" branch="false" />
+                <line number="13" hits="31" branch="false" />
+                <line number="14" hits="31" branch="false" />
+                <line number="15" hits="31" branch="false" />
+                <line number="16" hits="31" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="31" branch="false" />
+            <line number="10" hits="31" branch="false" />
+            <line number="11" hits="31" branch="false" />
+            <line number="12" hits="31" branch="false" />
+            <line number="13" hits="31" branch="false" />
+            <line number="14" hits="31" branch="false" />
+            <line number="15" hits="31" branch="false" />
+            <line number="16" hits="31" branch="false" />
+            <line number="18" hits="52" branch="false" />
+            <line number="19" hits="139" branch="false" />
+            <line number="20" hits="32" branch="false" />
+            <line number="21" hits="61" branch="false" />
+            <line number="24" hits="29" branch="false" />
+            <line number="25" hits="29" branch="false" />
+            <line number="26" hits="119" branch="true" condition-coverage="100% (2/2)" />
+            <line number="27" hits="16" branch="false" />
+            <line number="28" hits="29" branch="false" />
+            <line number="29" hits="29" branch="false" />
+            <line number="32" hits="25" branch="false" />
+            <line number="33" hits="25" branch="true" condition-coverage="100% (2/2)" />
+            <line number="34" hits="2" branch="false" />
+            <line number="35" hits="2" branch="true" condition-coverage="100% (2/2)" />
+            <line number="36" hits="2" branch="false" />
+            <line number="37" hits="2" branch="false" />
+            <line number="39" hits="81" branch="true" condition-coverage="100% (2/2)" />
+            <line number="40" hits="7" branch="true" condition-coverage="100% (2/2)" />
+            <line number="41" hits="2" branch="false" />
+            <line number="42" hits="2" branch="true" condition-coverage="100% (2/2)" />
+            <line number="43" hits="2" branch="false" />
+            <line number="44" hits="2" branch="false" />
+            <line number="47" hits="21" branch="false" />
+            <line number="48" hits="21" branch="false" />
+          </lines>
+        </class>
+        <class name="ZooLib.Exceptions.EnclosureIsAlreadyExistsException" filename="D:\1. WORK\ANKO\Zoo Lab\ZooLib\Exceptions\EnclosureIsAlreadyExistsException.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="6" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="6" branch="false" />
+          </lines>
+        </class>
+        <class name="ZooLib.Exceptions.NoAvailableSpaceException" filename="D:\1. WORK\ANKO\Zoo Lab\ZooLib\Exceptions\NoAvailableSpaceException.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="9" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="9" branch="false" />
+          </lines>
+        </class>
+        <class name="ZooLib.Exceptions.NoNeededExperienceException" filename="D:\1. WORK\ANKO\Zoo Lab\ZooLib\Exceptions\NoNeededExperienceException.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="21" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="21" branch="false" />
+          </lines>
+        </class>
+        <class name="ZooLib.Exceptions.NotFavoriteFoodException" filename="D:\1. WORK\ANKO\Zoo Lab\ZooLib\Exceptions\NotFavoriteFoodException.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="6" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="6" branch="false" />
+          </lines>
+        </class>
+        <class name="ZooLib.Exceptions.NotFriendlyAnimalException" filename="D:\1. WORK\ANKO\Zoo Lab\ZooLib\Exceptions\NotFriendlyAnimalException.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="9" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="9" branch="false" />
+          </lines>
+        </class>
+        <class name="ZooLib.Exceptions.SameScheduleException" filename="D:\1. WORK\ANKO\Zoo Lab\ZooLib\Exceptions\SameScheduleException.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="3" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="3" branch="false" />
+          </lines>
+        </class>
+        <class name="ZooLib.Exceptions.UnknownAnimalException" filename="D:\1. WORK\ANKO\Zoo Lab\ZooLib\Exceptions\UnknownAnimalException.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="6" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="6" branch="false" />
+          </lines>
+        </class>
+        <class name="ZooLib.Exceptions.UnknownEmployeeTypeException" filename="D:\1. WORK\ANKO\Zoo Lab\ZooLib\Exceptions\UnknownEmployeeTypeException.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="3" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="3" branch="false" />
+          </lines>
+        </class>
+        <class name="ZooLib.Foods.FeedTime" filename="D:\1. WORK\ANKO\Zoo Lab\ZooLib\Foods\FeedTime.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_FeedAnimalTime" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="15" branch="false" />
+              </lines>
+            </method>
+            <method name="get_FeedByZooKeeper" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="11" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="11" branch="false" />
+                <line number="11" hits="11" branch="false" />
+                <line number="12" hits="11" branch="false" />
+                <line number="13" hits="11" branch="false" />
+                <line number="14" hits="11" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="15" branch="false" />
+            <line number="9" hits="11" branch="false" />
+            <line number="10" hits="11" branch="false" />
+            <line number="11" hits="11" branch="false" />
+            <line number="12" hits="11" branch="false" />
+            <line number="13" hits="11" branch="false" />
+            <line number="14" hits="11" branch="false" />
+          </lines>
+        </class>
+        <class name="ZooLib.Zoo" filename="D:\1. WORK\ANKO\Zoo Lab\ZooLib\Zoo.cs" line-rate="1" branch-rate="0.85" complexity="64">
+          <methods>
+            <method name="get_Enclosures" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="22" hits="108" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Employees" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="23" hits="26" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Location" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="24" hits="24" branch="false" />
+              </lines>
+            </method>
+            <method name="AddEnclosure" signature="(...)" line-rate="1" branch-rate="0.875" complexity="8">
+              <lines>
+                <line number="27" hits="25" branch="false" />
+                <line number="28" hits="100" branch="true" condition-coverage="100% (2/2)" />
+                <line number="29" hits="13" branch="true" condition-coverage="100% (2/2)" />
+                <line number="30" hits="1" branch="false" />
+                <line number="31" hits="1" branch="true" condition-coverage="50% (1/2)" />
+                <line number="32" hits="1" branch="false" />
+                <line number="34" hits="24" branch="true" condition-coverage="100% (2/2)" />
+                <line number="35" hits="24" branch="false" />
+                <line number="36" hits="24" branch="false" />
+              </lines>
+            </method>
+            <method name="FindAvailableEnclosure" signature="(...)" line-rate="1" branch-rate="0.8333333333333334" complexity="18">
+              <lines>
+                <line number="39" hits="3" branch="false" />
+                <line number="40" hits="17" branch="true" condition-coverage="100% (2/2)" />
+                <line number="41" hits="5" branch="false" />
+                <line number="42" hits="5" branch="true" condition-coverage="100% (4/4)" />
+                <line number="43" hits="1" branch="false" />
+                <line number="44" hits="1" branch="true" condition-coverage="50% (1/2)" />
+                <line number="45" hits="1" branch="false" />
+                <line number="47" hits="17" branch="true" condition-coverage="100% (2/2)" />
+                <line number="48" hits="3" branch="true" condition-coverage="100% (4/4)" />
+                <line number="49" hits="1" branch="false" />
+                <line number="50" hits="1" branch="true" condition-coverage="50% (1/2)" />
+                <line number="51" hits="1" branch="false" />
+                <line number="53" hits="3" branch="false" />
+                <line number="54" hits="1" branch="true" condition-coverage="50% (1/2)" />
+                <line number="55" hits="1" branch="false" />
+                <line number="56" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name="HireEmployee" signature="(...)" line-rate="1" branch-rate="0.8333333333333334" complexity="6">
+              <lines>
+                <line number="59" hits="10" branch="false" />
+                <line number="60" hits="10" branch="true" condition-coverage="100% (2/2)" />
+                <line number="61" hits="7" branch="false" />
+                <line number="62" hits="7" branch="false" />
+                <line number="63" hits="7" branch="true" condition-coverage="100% (2/2)" />
+                <line number="64" hits="7" branch="false" />
+                <line number="66" hits="3" branch="true" condition-coverage="50% (1/2)" />
+                <line number="67" hits="10" branch="false" />
+              </lines>
+            </method>
+            <method name="FeedAnimals" signature="(...)" line-rate="1" branch-rate="0.75" complexity="8">
+              <lines>
+                <line number="69" hits="1" branch="false" />
+                <line number="70" hits="1" branch="false" />
+                <line number="71" hits="5" branch="false" />
+                <line number="73" hits="7" branch="true" condition-coverage="100% (2/2)" />
+                <line number="74" hits="2" branch="false" />
+                <line number="75" hits="12" branch="true" condition-coverage="100% (2/2)" />
+                <line number="76" hits="3" branch="false" />
+                <line number="77" hits="3" branch="true" condition-coverage="50% (1/2)" />
+                <line number="78" hits="3" branch="true" condition-coverage="50% (1/2)" />
+                <line number="79" hits="3" branch="false" />
+                <line number="80" hits="3" branch="false" />
+                <line number="81" hits="2" branch="false" />
+                <line number="82" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="HealAnimals" signature="()" line-rate="1" branch-rate="0.75" complexity="8">
+              <lines>
+                <line number="84" hits="1" branch="false" />
+                <line number="85" hits="5" branch="false" />
+                <line number="87" hits="7" branch="true" condition-coverage="100% (2/2)" />
+                <line number="88" hits="2" branch="false" />
+                <line number="89" hits="14" branch="true" condition-coverage="100% (2/2)" />
+                <line number="90" hits="4" branch="false" />
+                <line number="91" hits="4" branch="true" condition-coverage="50% (1/2)" />
+                <line number="92" hits="4" branch="true" condition-coverage="50% (1/2)" />
+                <line number="93" hits="4" branch="false" />
+                <line number="94" hits="4" branch="false" />
+                <line number="95" hits="2" branch="false" />
+                <line number="96" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="DivideAnimalsBetweenEmployees" signature="(...)" line-rate="1" branch-rate="1" complexity="12">
+              <lines>
+                <line number="100" hits="3" branch="false" />
+                <line number="101" hits="9" branch="false" />
+                <line number="103" hits="9" branch="false" />
+                <line number="105" hits="3" branch="false" />
+                <line number="107" hits="24" branch="true" condition-coverage="100% (2/2)" />
+                <line number="108" hits="8" branch="false" />
+                <line number="109" hits="45" branch="true" condition-coverage="100% (2/2)" />
+                <line number="110" hits="11" branch="false" />
+                <line number="111" hits="11" branch="true" condition-coverage="100% (2/2)" />
+                <line number="112" hits="10" branch="false" />
+                <line number="113" hits="30" branch="false" />
+                <line number="114" hits="43" branch="true" condition-coverage="100% (2/2)" />
+                <line number="115" hits="11" branch="false" />
+                <line number="116" hits="11" branch="true" condition-coverage="100% (2/2)" />
+                <line number="117" hits="9" branch="false" />
+                <line number="118" hits="9" branch="false" />
+                <line number="119" hits="9" branch="false" />
+                <line number="122" hits="2" branch="false" />
+                <line number="123" hits="2" branch="false" />
+                <line number="124" hits="2" branch="false" />
+                <line number="125" hits="2" branch="false" />
+                <line number="127" hits="10" branch="true" condition-coverage="100% (2/2)" />
+                <line number="128" hits="1" branch="false" />
+                <line number="129" hits="1" branch="false" />
+                <line number="130" hits="1" branch="false" />
+                <line number="132" hits="9" branch="false" />
+                <line number="133" hits="10" branch="false" />
+                <line number="134" hits="7" branch="false" />
+                <line number="136" hits="2" branch="false" />
+                <line number="137" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="16" branch="false" />
+                <line number="17" hits="16" branch="false" />
+                <line number="18" hits="16" branch="false" />
+                <line number="19" hits="16" branch="false" />
+                <line number="20" hits="16" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="16" hits="16" branch="false" />
+            <line number="17" hits="16" branch="false" />
+            <line number="18" hits="16" branch="false" />
+            <line number="19" hits="16" branch="false" />
+            <line number="20" hits="16" branch="false" />
+            <line number="22" hits="108" branch="false" />
+            <line number="23" hits="26" branch="false" />
+            <line number="24" hits="24" branch="false" />
+            <line number="27" hits="25" branch="false" />
+            <line number="28" hits="100" branch="true" condition-coverage="100% (2/2)" />
+            <line number="29" hits="13" branch="true" condition-coverage="100% (2/2)" />
+            <line number="30" hits="1" branch="false" />
+            <line number="31" hits="1" branch="true" condition-coverage="50% (1/2)" />
+            <line number="32" hits="1" branch="false" />
+            <line number="34" hits="24" branch="true" condition-coverage="100% (2/2)" />
+            <line number="35" hits="24" branch="false" />
+            <line number="36" hits="24" branch="false" />
+            <line number="39" hits="3" branch="false" />
+            <line number="40" hits="17" branch="true" condition-coverage="100% (2/2)" />
+            <line number="41" hits="5" branch="false" />
+            <line number="42" hits="5" branch="true" condition-coverage="100% (4/4)" />
+            <line number="43" hits="1" branch="false" />
+            <line number="44" hits="1" branch="true" condition-coverage="50% (1/2)" />
+            <line number="45" hits="1" branch="false" />
+            <line number="47" hits="17" branch="true" condition-coverage="100% (2/2)" />
+            <line number="48" hits="3" branch="true" condition-coverage="100% (4/4)" />
+            <line number="49" hits="1" branch="false" />
+            <line number="50" hits="1" branch="true" condition-coverage="50% (1/2)" />
+            <line number="51" hits="1" branch="false" />
+            <line number="53" hits="3" branch="false" />
+            <line number="54" hits="1" branch="true" condition-coverage="50% (1/2)" />
+            <line number="55" hits="1" branch="false" />
+            <line number="56" hits="3" branch="false" />
+            <line number="59" hits="10" branch="false" />
+            <line number="60" hits="10" branch="true" condition-coverage="100% (2/2)" />
+            <line number="61" hits="7" branch="false" />
+            <line number="62" hits="7" branch="false" />
+            <line number="63" hits="7" branch="true" condition-coverage="100% (2/2)" />
+            <line number="64" hits="7" branch="false" />
+            <line number="66" hits="3" branch="true" condition-coverage="50% (1/2)" />
+            <line number="67" hits="10" branch="false" />
+            <line number="69" hits="1" branch="false" />
+            <line number="70" hits="1" branch="false" />
+            <line number="71" hits="5" branch="false" />
+            <line number="73" hits="7" branch="true" condition-coverage="100% (2/2)" />
+            <line number="74" hits="2" branch="false" />
+            <line number="75" hits="12" branch="true" condition-coverage="100% (2/2)" />
+            <line number="76" hits="3" branch="false" />
+            <line number="77" hits="3" branch="true" condition-coverage="50% (1/2)" />
+            <line number="78" hits="3" branch="true" condition-coverage="50% (1/2)" />
+            <line number="79" hits="3" branch="false" />
+            <line number="80" hits="3" branch="false" />
+            <line number="81" hits="2" branch="false" />
+            <line number="82" hits="1" branch="false" />
+            <line number="84" hits="1" branch="false" />
+            <line number="85" hits="5" branch="false" />
+            <line number="87" hits="7" branch="true" condition-coverage="100% (2/2)" />
+            <line number="88" hits="2" branch="false" />
+            <line number="89" hits="14" branch="true" condition-coverage="100% (2/2)" />
+            <line number="90" hits="4" branch="false" />
+            <line number="91" hits="4" branch="true" condition-coverage="50% (1/2)" />
+            <line number="92" hits="4" branch="true" condition-coverage="50% (1/2)" />
+            <line number="93" hits="4" branch="false" />
+            <line number="94" hits="4" branch="false" />
+            <line number="95" hits="2" branch="false" />
+            <line number="96" hits="1" branch="false" />
+            <line number="100" hits="3" branch="false" />
+            <line number="101" hits="9" branch="false" />
+            <line number="103" hits="9" branch="false" />
+            <line number="105" hits="3" branch="false" />
+            <line number="107" hits="24" branch="true" condition-coverage="100% (2/2)" />
+            <line number="108" hits="8" branch="false" />
+            <line number="109" hits="45" branch="true" condition-coverage="100% (2/2)" />
+            <line number="110" hits="11" branch="false" />
+            <line number="111" hits="11" branch="true" condition-coverage="100% (2/2)" />
+            <line number="112" hits="10" branch="false" />
+            <line number="113" hits="30" branch="false" />
+            <line number="114" hits="43" branch="true" condition-coverage="100% (2/2)" />
+            <line number="115" hits="11" branch="false" />
+            <line number="116" hits="11" branch="true" condition-coverage="100% (2/2)" />
+            <line number="117" hits="9" branch="false" />
+            <line number="118" hits="9" branch="false" />
+            <line number="119" hits="9" branch="false" />
+            <line number="122" hits="2" branch="false" />
+            <line number="123" hits="2" branch="false" />
+            <line number="124" hits="2" branch="false" />
+            <line number="125" hits="2" branch="false" />
+            <line number="127" hits="10" branch="true" condition-coverage="100% (2/2)" />
+            <line number="128" hits="1" branch="false" />
+            <line number="129" hits="1" branch="false" />
+            <line number="130" hits="1" branch="false" />
+            <line number="132" hits="9" branch="false" />
+            <line number="133" hits="10" branch="false" />
+            <line number="134" hits="7" branch="false" />
+            <line number="136" hits="2" branch="false" />
+            <line number="137" hits="2" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="ZooTest" line-rate="0.9979035639412998" branch-rate="1" complexity="66">
+      <classes>
+        <class name="AutoGeneratedProgram" filename="C:\Users\Acer\.nuget\packages\microsoft.net.test.sdk\16.5.0\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Main" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="4" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="4" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="ZooTest.Animals.AnimalTest" filename="D:\1. WORK\ANKO\Zoo Lab\ZooTest\Animals\AnimalTest.cs" line-rate="1" branch-rate="1" complexity="8">
+          <methods>
+            <method name="AnimalIsHungryWhenItIsCreated" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="1" branch="false" />
+                <line number="17" hits="1" branch="false" />
+                <line number="19" hits="1" branch="false" />
+                <line number="20" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="AnimalIsNotSickWhenItIsCreated" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="23" hits="1" branch="false" />
+                <line number="24" hits="1" branch="false" />
+                <line number="26" hits="1" branch="false" />
+                <line number="30" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="AnimalCanBeSick" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="33" hits="1" branch="false" />
+                <line number="34" hits="1" branch="false" />
+                <line number="35" hits="1" branch="false" />
+                <line number="37" hits="1" branch="false" />
+                <line number="38" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="AnimalShouldBeAbleToAddFeedSchedule" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="42" hits="1" branch="false" />
+                <line number="43" hits="1" branch="false" />
+                <line number="45" hits="1" branch="false" />
+                <line number="46" hits="1" branch="false" />
+                <line number="48" hits="1" branch="false" />
+                <line number="49" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="AnimalShouldNotBeAbleToAddFeedScheduleContainsNull" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="52" hits="1" branch="false" />
+                <line number="53" hits="1" branch="false" />
+                <line number="55" hits="1" branch="false" />
+                <line number="57" hits="2" branch="false" />
+                <line number="58" hits="1" branch="false" />
+                <line number="59" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="AnimalShouldNotBeAbleToAddFeedScheduleWithTheSameElements" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="63" hits="1" branch="false" />
+                <line number="64" hits="1" branch="false" />
+                <line number="66" hits="1" branch="false" />
+                <line number="67" hits="1" branch="false" />
+                <line number="69" hits="1" branch="false" />
+                <line number="71" hits="2" branch="false" />
+                <line number="72" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="AnimalShouldBeHealedIfSick" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="76" hits="1" branch="false" />
+                <line number="77" hits="1" branch="false" />
+                <line number="78" hits="1" branch="false" />
+                <line number="79" hits="1" branch="false" />
+                <line number="81" hits="1" branch="false" />
+                <line number="82" hits="1" branch="false" />
+                <line number="83" hits="1" branch="false" />
+                <line number="84" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="AnimalShouldNotBeHealedIfItIsHealthy" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="88" hits="1" branch="false" />
+                <line number="89" hits="1" branch="false" />
+                <line number="90" hits="1" branch="false" />
+                <line number="91" hits="1" branch="false" />
+                <line number="93" hits="1" branch="false" />
+                <line number="94" hits="1" branch="false" />
+                <line number="95" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="16" hits="1" branch="false" />
+            <line number="17" hits="1" branch="false" />
+            <line number="19" hits="1" branch="false" />
+            <line number="20" hits="1" branch="false" />
+            <line number="23" hits="1" branch="false" />
+            <line number="24" hits="1" branch="false" />
+            <line number="26" hits="1" branch="false" />
+            <line number="30" hits="1" branch="false" />
+            <line number="33" hits="1" branch="false" />
+            <line number="34" hits="1" branch="false" />
+            <line number="35" hits="1" branch="false" />
+            <line number="37" hits="1" branch="false" />
+            <line number="38" hits="1" branch="false" />
+            <line number="42" hits="1" branch="false" />
+            <line number="43" hits="1" branch="false" />
+            <line number="45" hits="1" branch="false" />
+            <line number="46" hits="1" branch="false" />
+            <line number="48" hits="1" branch="false" />
+            <line number="49" hits="1" branch="false" />
+            <line number="52" hits="1" branch="false" />
+            <line number="53" hits="1" branch="false" />
+            <line number="55" hits="1" branch="false" />
+            <line number="57" hits="2" branch="false" />
+            <line number="58" hits="1" branch="false" />
+            <line number="59" hits="1" branch="false" />
+            <line number="63" hits="1" branch="false" />
+            <line number="64" hits="1" branch="false" />
+            <line number="66" hits="1" branch="false" />
+            <line number="67" hits="1" branch="false" />
+            <line number="69" hits="1" branch="false" />
+            <line number="71" hits="2" branch="false" />
+            <line number="72" hits="1" branch="false" />
+            <line number="76" hits="1" branch="false" />
+            <line number="77" hits="1" branch="false" />
+            <line number="78" hits="1" branch="false" />
+            <line number="79" hits="1" branch="false" />
+            <line number="81" hits="1" branch="false" />
+            <line number="82" hits="1" branch="false" />
+            <line number="83" hits="1" branch="false" />
+            <line number="84" hits="1" branch="false" />
+            <line number="88" hits="1" branch="false" />
+            <line number="89" hits="1" branch="false" />
+            <line number="90" hits="1" branch="false" />
+            <line number="91" hits="1" branch="false" />
+            <line number="93" hits="1" branch="false" />
+            <line number="94" hits="1" branch="false" />
+            <line number="95" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="ZooTest.Animals.Birds.ParrotTest" filename="D:\1. WORK\ANKO\Zoo Lab\ZooTest\Animals\Birds\ParrotTest.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="ShouldBeAbleToCreateParrot" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="1" branch="false" />
+                <line number="17" hits="1" branch="false" />
+                <line number="18" hits="1" branch="false" />
+                <line number="19" hits="1" branch="false" />
+                <line number="20" hits="1" branch="false" />
+                <line number="21" hits="1" branch="false" />
+                <line number="22" hits="1" branch="false" />
+                <line number="23" hits="1" branch="false" />
+                <line number="24" hits="1" branch="false" />
+                <line number="25" hits="1" branch="false" />
+                <line number="26" hits="1" branch="false" />
+                <line number="27" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ShouldBeAbleToFeedParrot" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="30" hits="1" branch="false" />
+                <line number="31" hits="1" branch="false" />
+                <line number="32" hits="1" branch="false" />
+                <line number="34" hits="1" branch="false" />
+                <line number="35" hits="1" branch="false" />
+                <line number="36" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ShouldNotBeAbleToFeedParrotWithUnfavoriteFood" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="39" hits="1" branch="false" />
+                <line number="40" hits="1" branch="false" />
+                <line number="41" hits="1" branch="false" />
+                <line number="44" hits="2" branch="false" />
+                <line number="45" hits="1" branch="false" />
+                <line number="46" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ShouldNotBeAbleToFeedParrotIfZooKeeperHasNotExperience" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="49" hits="1" branch="false" />
+                <line number="50" hits="1" branch="false" />
+                <line number="51" hits="1" branch="false" />
+                <line number="54" hits="2" branch="false" />
+                <line number="55" hits="1" branch="false" />
+                <line number="56" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="16" hits="1" branch="false" />
+            <line number="17" hits="1" branch="false" />
+            <line number="18" hits="1" branch="false" />
+            <line number="19" hits="1" branch="false" />
+            <line number="20" hits="1" branch="false" />
+            <line number="21" hits="1" branch="false" />
+            <line number="22" hits="1" branch="false" />
+            <line number="23" hits="1" branch="false" />
+            <line number="24" hits="1" branch="false" />
+            <line number="25" hits="1" branch="false" />
+            <line number="26" hits="1" branch="false" />
+            <line number="27" hits="1" branch="false" />
+            <line number="30" hits="1" branch="false" />
+            <line number="31" hits="1" branch="false" />
+            <line number="32" hits="1" branch="false" />
+            <line number="34" hits="1" branch="false" />
+            <line number="35" hits="1" branch="false" />
+            <line number="36" hits="1" branch="false" />
+            <line number="39" hits="1" branch="false" />
+            <line number="40" hits="1" branch="false" />
+            <line number="41" hits="1" branch="false" />
+            <line number="44" hits="2" branch="false" />
+            <line number="45" hits="1" branch="false" />
+            <line number="46" hits="1" branch="false" />
+            <line number="49" hits="1" branch="false" />
+            <line number="50" hits="1" branch="false" />
+            <line number="51" hits="1" branch="false" />
+            <line number="54" hits="2" branch="false" />
+            <line number="55" hits="1" branch="false" />
+            <line number="56" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="ZooTest.Animals.Birds.PenguinTest" filename="D:\1. WORK\ANKO\Zoo Lab\ZooTest\Animals\Birds\PenguinTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="ShouldBeAbleToCreatePenguin" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="1" branch="false" />
+                <line number="14" hits="1" branch="false" />
+                <line number="15" hits="1" branch="false" />
+                <line number="16" hits="1" branch="false" />
+                <line number="17" hits="1" branch="false" />
+                <line number="18" hits="1" branch="false" />
+                <line number="19" hits="1" branch="false" />
+                <line number="20" hits="1" branch="false" />
+                <line number="21" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="1" branch="false" />
+            <line number="14" hits="1" branch="false" />
+            <line number="15" hits="1" branch="false" />
+            <line number="16" hits="1" branch="false" />
+            <line number="17" hits="1" branch="false" />
+            <line number="18" hits="1" branch="false" />
+            <line number="19" hits="1" branch="false" />
+            <line number="20" hits="1" branch="false" />
+            <line number="21" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="ZooTest.Animals.Mammals.BisonTest" filename="D:\1. WORK\ANKO\Zoo Lab\ZooTest\Animals\Mammals\BisonTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="ShouldBeAbleToCreateBison" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="1" branch="false" />
+                <line number="12" hits="1" branch="false" />
+                <line number="13" hits="1" branch="false" />
+                <line number="14" hits="1" branch="false" />
+                <line number="15" hits="1" branch="false" />
+                <line number="16" hits="1" branch="false" />
+                <line number="17" hits="1" branch="false" />
+                <line number="18" hits="1" branch="false" />
+                <line number="19" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="1" branch="false" />
+            <line number="12" hits="1" branch="false" />
+            <line number="13" hits="1" branch="false" />
+            <line number="14" hits="1" branch="false" />
+            <line number="15" hits="1" branch="false" />
+            <line number="16" hits="1" branch="false" />
+            <line number="17" hits="1" branch="false" />
+            <line number="18" hits="1" branch="false" />
+            <line number="19" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="ZooTest.Animals.Mammals.ElephantTest" filename="D:\1. WORK\ANKO\Zoo Lab\ZooTest\Animals\Mammals\ElephantTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="ShouldBeAbleToCreateElephant" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="1" branch="false" />
+                <line number="14" hits="1" branch="false" />
+                <line number="15" hits="1" branch="false" />
+                <line number="16" hits="1" branch="false" />
+                <line number="17" hits="1" branch="false" />
+                <line number="18" hits="1" branch="false" />
+                <line number="20" hits="1" branch="false" />
+                <line number="21" hits="1" branch="false" />
+                <line number="22" hits="1" branch="false" />
+                <line number="23" hits="1" branch="false" />
+                <line number="24" hits="1" branch="false" />
+                <line number="25" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="1" branch="false" />
+            <line number="14" hits="1" branch="false" />
+            <line number="15" hits="1" branch="false" />
+            <line number="16" hits="1" branch="false" />
+            <line number="17" hits="1" branch="false" />
+            <line number="18" hits="1" branch="false" />
+            <line number="20" hits="1" branch="false" />
+            <line number="21" hits="1" branch="false" />
+            <line number="22" hits="1" branch="false" />
+            <line number="23" hits="1" branch="false" />
+            <line number="24" hits="1" branch="false" />
+            <line number="25" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="ZooTest.Animals.Mammals.LionTest" filename="D:\1. WORK\ANKO\Zoo Lab\ZooTest\Animals\Mammals\LionTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="ShouldBeAbleToCreateLion" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="1" branch="false" />
+                <line number="12" hits="1" branch="false" />
+                <line number="13" hits="1" branch="false" />
+                <line number="14" hits="1" branch="false" />
+                <line number="15" hits="1" branch="false" />
+                <line number="16" hits="1" branch="false" />
+                <line number="17" hits="1" branch="false" />
+                <line number="18" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="1" branch="false" />
+            <line number="12" hits="1" branch="false" />
+            <line number="13" hits="1" branch="false" />
+            <line number="14" hits="1" branch="false" />
+            <line number="15" hits="1" branch="false" />
+            <line number="16" hits="1" branch="false" />
+            <line number="17" hits="1" branch="false" />
+            <line number="18" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="ZooTest.Animals.Reptiles.SnakeTest" filename="D:\1. WORK\ANKO\Zoo Lab\ZooTest\Animals\Reptiles\SnakeTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="ShouldBeAbleToCreateSnake" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="1" branch="false" />
+                <line number="14" hits="1" branch="false" />
+                <line number="15" hits="1" branch="false" />
+                <line number="16" hits="1" branch="false" />
+                <line number="17" hits="1" branch="false" />
+                <line number="18" hits="1" branch="false" />
+                <line number="19" hits="1" branch="false" />
+                <line number="20" hits="1" branch="false" />
+                <line number="21" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="1" branch="false" />
+            <line number="14" hits="1" branch="false" />
+            <line number="15" hits="1" branch="false" />
+            <line number="16" hits="1" branch="false" />
+            <line number="17" hits="1" branch="false" />
+            <line number="18" hits="1" branch="false" />
+            <line number="19" hits="1" branch="false" />
+            <line number="20" hits="1" branch="false" />
+            <line number="21" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="ZooTest.Animals.Reptiles.TurtleTest" filename="D:\1. WORK\ANKO\Zoo Lab\ZooTest\Animals\Reptiles\TurtleTest.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="ShouldBeAbleToCreateTurtle" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="1" branch="false" />
+                <line number="15" hits="1" branch="false" />
+                <line number="16" hits="1" branch="false" />
+                <line number="17" hits="1" branch="false" />
+                <line number="18" hits="1" branch="false" />
+                <line number="19" hits="1" branch="false" />
+                <line number="20" hits="1" branch="false" />
+                <line number="21" hits="1" branch="false" />
+                <line number="22" hits="1" branch="false" />
+                <line number="23" hits="1" branch="false" />
+                <line number="24" hits="1" branch="false" />
+                <line number="25" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="14" hits="1" branch="false" />
+            <line number="15" hits="1" branch="false" />
+            <line number="16" hits="1" branch="false" />
+            <line number="17" hits="1" branch="false" />
+            <line number="18" hits="1" branch="false" />
+            <line number="19" hits="1" branch="false" />
+            <line number="20" hits="1" branch="false" />
+            <line number="21" hits="1" branch="false" />
+            <line number="22" hits="1" branch="false" />
+            <line number="23" hits="1" branch="false" />
+            <line number="24" hits="1" branch="false" />
+            <line number="25" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="ZooTest.Employees.HireValidatorProviderTest" filename="D:\1. WORK\ANKO\Zoo Lab\ZooTest\Employees\Validators\HireValidatorProviderTest.cs" line-rate="1" branch-rate="1" complexity="10">
+          <methods>
+            <method name="ShouldBeAbleToReturnVeterinarianHireValidator" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="22" hits="1" branch="false" />
+                <line number="23" hits="1" branch="false" />
+                <line number="24" hits="1" branch="false" />
+                <line number="25" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ShouldBeAbleToReturnZooKeeperHireValidator" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="29" hits="1" branch="false" />
+                <line number="30" hits="1" branch="false" />
+                <line number="31" hits="1" branch="false" />
+                <line number="32" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ShouldThrowAnExceptionWhenEmployeeHasWrongType" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="36" hits="1" branch="false" />
+                <line number="37" hits="1" branch="false" />
+                <line number="38" hits="2" branch="false" />
+                <line number="39" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ShouldBeAbleToCreateLocalPaleontolog" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="69" hits="1" branch="false" />
+                <line number="70" hits="1" branch="false" />
+                <line number="72" hits="1" branch="false" />
+                <line number="73" hits="1" branch="false" />
+                <line number="74" hits="1" branch="false" />
+                <line number="76" hits="2" branch="false" />
+                <line number="77" hits="2" branch="false" />
+                <line number="78" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="get_FirstName" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="50" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name="get_LastName" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="52" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name="get_AnimalExperiences" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="54" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name="AddAnimalExperience" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="57" hits="1" branch="false" />
+                <line number="58" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="HasAnimalExperience" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="62" hits="1" branch="false" />
+                <line number="63" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="43" hits="2" branch="false" />
+                <line number="44" hits="2" branch="false" />
+                <line number="45" hits="2" branch="false" />
+                <line number="46" hits="2" branch="false" />
+                <line number="47" hits="2" branch="false" />
+                <line number="48" hits="2" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="22" hits="1" branch="false" />
+            <line number="23" hits="1" branch="false" />
+            <line number="24" hits="1" branch="false" />
+            <line number="25" hits="1" branch="false" />
+            <line number="29" hits="1" branch="false" />
+            <line number="30" hits="1" branch="false" />
+            <line number="31" hits="1" branch="false" />
+            <line number="32" hits="1" branch="false" />
+            <line number="36" hits="1" branch="false" />
+            <line number="37" hits="1" branch="false" />
+            <line number="38" hits="2" branch="false" />
+            <line number="39" hits="1" branch="false" />
+            <line number="43" hits="2" branch="false" />
+            <line number="44" hits="2" branch="false" />
+            <line number="45" hits="2" branch="false" />
+            <line number="46" hits="2" branch="false" />
+            <line number="47" hits="2" branch="false" />
+            <line number="48" hits="2" branch="false" />
+            <line number="50" hits="3" branch="false" />
+            <line number="52" hits="3" branch="false" />
+            <line number="54" hits="3" branch="false" />
+            <line number="57" hits="1" branch="false" />
+            <line number="58" hits="1" branch="false" />
+            <line number="62" hits="1" branch="false" />
+            <line number="63" hits="1" branch="false" />
+            <line number="69" hits="1" branch="false" />
+            <line number="70" hits="1" branch="false" />
+            <line number="72" hits="1" branch="false" />
+            <line number="73" hits="1" branch="false" />
+            <line number="74" hits="1" branch="false" />
+            <line number="76" hits="2" branch="false" />
+            <line number="77" hits="2" branch="false" />
+            <line number="78" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="ZooTest.Employees.Validators.VeterinarianHireValidatorTest" filename="D:\1. WORK\ANKO\Zoo Lab\ZooTest\Employees\Validators\VeterinarianHireValidatorTest.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="ShouldReturnNullIfEmployeeHasNeededExperience" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="1" branch="false" />
+                <line number="16" hits="1" branch="false" />
+                <line number="17" hits="1" branch="false" />
+                <line number="18" hits="1" branch="false" />
+                <line number="20" hits="1" branch="false" />
+                <line number="21" hits="1" branch="false" />
+                <line number="22" hits="1" branch="false" />
+                <line number="23" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ShouldThrowAnExceptionIfEmployeeDoesNotHaveNeededExperience" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="26" hits="1" branch="false" />
+                <line number="27" hits="1" branch="false" />
+                <line number="28" hits="1" branch="false" />
+                <line number="29" hits="1" branch="false" />
+                <line number="31" hits="1" branch="false" />
+                <line number="32" hits="1" branch="false" />
+                <line number="33" hits="1" branch="false" />
+                <line number="34" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="15" hits="1" branch="false" />
+            <line number="16" hits="1" branch="false" />
+            <line number="17" hits="1" branch="false" />
+            <line number="18" hits="1" branch="false" />
+            <line number="20" hits="1" branch="false" />
+            <line number="21" hits="1" branch="false" />
+            <line number="22" hits="1" branch="false" />
+            <line number="23" hits="1" branch="false" />
+            <line number="26" hits="1" branch="false" />
+            <line number="27" hits="1" branch="false" />
+            <line number="28" hits="1" branch="false" />
+            <line number="29" hits="1" branch="false" />
+            <line number="31" hits="1" branch="false" />
+            <line number="32" hits="1" branch="false" />
+            <line number="33" hits="1" branch="false" />
+            <line number="34" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="ZooTest.Employees.Validators.ZooKeeperHireValidatorTest" filename="D:\1. WORK\ANKO\Zoo Lab\ZooTest\Employees\Validators\ZooKeeperHireValidatorTest.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="ShouldReturnNullIfEmployeeHasNeededExperience" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="1" branch="false" />
+                <line number="22" hits="1" branch="false" />
+                <line number="23" hits="1" branch="false" />
+                <line number="24" hits="1" branch="false" />
+                <line number="26" hits="1" branch="false" />
+                <line number="27" hits="1" branch="false" />
+                <line number="28" hits="1" branch="false" />
+                <line number="29" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ShouldThrowAnExceptionIfEmployeeDoesNotHaveNeededExperience" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="32" hits="1" branch="false" />
+                <line number="33" hits="1" branch="false" />
+                <line number="34" hits="1" branch="false" />
+                <line number="35" hits="1" branch="false" />
+                <line number="37" hits="1" branch="false" />
+                <line number="38" hits="1" branch="false" />
+                <line number="39" hits="1" branch="false" />
+                <line number="40" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="21" hits="1" branch="false" />
+            <line number="22" hits="1" branch="false" />
+            <line number="23" hits="1" branch="false" />
+            <line number="24" hits="1" branch="false" />
+            <line number="26" hits="1" branch="false" />
+            <line number="27" hits="1" branch="false" />
+            <line number="28" hits="1" branch="false" />
+            <line number="29" hits="1" branch="false" />
+            <line number="32" hits="1" branch="false" />
+            <line number="33" hits="1" branch="false" />
+            <line number="34" hits="1" branch="false" />
+            <line number="35" hits="1" branch="false" />
+            <line number="37" hits="1" branch="false" />
+            <line number="38" hits="1" branch="false" />
+            <line number="39" hits="1" branch="false" />
+            <line number="40" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="ZooTest.Employees.VeterinarianTest" filename="D:\1. WORK\ANKO\Zoo Lab\ZooTest\Employees\VeterinarianTest.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="ShouldBeAbleToCreateVeterinarian" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="1" branch="false" />
+                <line number="16" hits="1" branch="false" />
+                <line number="17" hits="1" branch="false" />
+                <line number="18" hits="1" branch="false" />
+                <line number="19" hits="1" branch="false" />
+                <line number="20" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ShouldBeAbletoAddAnimalExperiences" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="24" hits="1" branch="false" />
+                <line number="25" hits="1" branch="false" />
+                <line number="26" hits="1" branch="false" />
+                <line number="27" hits="1" branch="false" />
+                <line number="28" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ShouldBeAbleToHealAnimal" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="32" hits="1" branch="false" />
+                <line number="33" hits="1" branch="false" />
+                <line number="34" hits="1" branch="false" />
+                <line number="35" hits="1" branch="false" />
+                <line number="37" hits="1" branch="false" />
+                <line number="38" hits="1" branch="false" />
+                <line number="39" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ShouldBeUnableToHealAnimalWithoutExperience" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="42" hits="1" branch="false" />
+                <line number="43" hits="1" branch="false" />
+                <line number="44" hits="1" branch="false" />
+                <line number="45" hits="1" branch="false" />
+                <line number="47" hits="1" branch="false" />
+                <line number="48" hits="1" branch="false" />
+                <line number="49" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="15" hits="1" branch="false" />
+            <line number="16" hits="1" branch="false" />
+            <line number="17" hits="1" branch="false" />
+            <line number="18" hits="1" branch="false" />
+            <line number="19" hits="1" branch="false" />
+            <line number="20" hits="1" branch="false" />
+            <line number="24" hits="1" branch="false" />
+            <line number="25" hits="1" branch="false" />
+            <line number="26" hits="1" branch="false" />
+            <line number="27" hits="1" branch="false" />
+            <line number="28" hits="1" branch="false" />
+            <line number="32" hits="1" branch="false" />
+            <line number="33" hits="1" branch="false" />
+            <line number="34" hits="1" branch="false" />
+            <line number="35" hits="1" branch="false" />
+            <line number="37" hits="1" branch="false" />
+            <line number="38" hits="1" branch="false" />
+            <line number="39" hits="1" branch="false" />
+            <line number="42" hits="1" branch="false" />
+            <line number="43" hits="1" branch="false" />
+            <line number="44" hits="1" branch="false" />
+            <line number="45" hits="1" branch="false" />
+            <line number="47" hits="1" branch="false" />
+            <line number="48" hits="1" branch="false" />
+            <line number="49" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="ZooTest.Employees.ZooKeeperTest" filename="D:\1. WORK\ANKO\Zoo Lab\ZooTest\Employees\ZooKeeperTest.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="ShouldBeAbleToCreateZooKeeper" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="1" branch="false" />
+                <line number="15" hits="1" branch="false" />
+                <line number="16" hits="1" branch="false" />
+                <line number="17" hits="1" branch="false" />
+                <line number="18" hits="1" branch="false" />
+                <line number="19" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ShouldBeAbletoAddAnimalExperiences" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="23" hits="1" branch="false" />
+                <line number="24" hits="1" branch="false" />
+                <line number="25" hits="1" branch="false" />
+                <line number="26" hits="1" branch="false" />
+                <line number="27" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ShouldBeAbleToFeedAnimal" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="31" hits="1" branch="false" />
+                <line number="32" hits="1" branch="false" />
+                <line number="33" hits="1" branch="false" />
+                <line number="35" hits="1" branch="false" />
+                <line number="37" hits="1" branch="false" />
+                <line number="38" hits="1" branch="false" />
+                <line number="40" hits="1" branch="false" />
+                <line number="41" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ShouldBeUnableToFeedAnimalWithotExperience" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="45" hits="1" branch="false" />
+                <line number="46" hits="1" branch="false" />
+                <line number="47" hits="1" branch="false" />
+                <line number="49" hits="1" branch="false" />
+                <line number="51" hits="1" branch="false" />
+                <line number="53" hits="1" branch="false" />
+                <line number="54" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="14" hits="1" branch="false" />
+            <line number="15" hits="1" branch="false" />
+            <line number="16" hits="1" branch="false" />
+            <line number="17" hits="1" branch="false" />
+            <line number="18" hits="1" branch="false" />
+            <line number="19" hits="1" branch="false" />
+            <line number="23" hits="1" branch="false" />
+            <line number="24" hits="1" branch="false" />
+            <line number="25" hits="1" branch="false" />
+            <line number="26" hits="1" branch="false" />
+            <line number="27" hits="1" branch="false" />
+            <line number="31" hits="1" branch="false" />
+            <line number="32" hits="1" branch="false" />
+            <line number="33" hits="1" branch="false" />
+            <line number="35" hits="1" branch="false" />
+            <line number="37" hits="1" branch="false" />
+            <line number="38" hits="1" branch="false" />
+            <line number="40" hits="1" branch="false" />
+            <line number="41" hits="1" branch="false" />
+            <line number="45" hits="1" branch="false" />
+            <line number="46" hits="1" branch="false" />
+            <line number="47" hits="1" branch="false" />
+            <line number="49" hits="1" branch="false" />
+            <line number="51" hits="1" branch="false" />
+            <line number="53" hits="1" branch="false" />
+            <line number="54" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="ZooTest.EnclosureTest" filename="D:\1. WORK\ANKO\Zoo Lab\ZooTest\EnclosureTest.cs" line-rate="1" branch-rate="1" complexity="7">
+          <methods>
+            <method name="ShouldBeAbleToCreateEnclosure" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="1" branch="false" />
+                <line number="17" hits="1" branch="false" />
+                <line number="19" hits="1" branch="false" />
+                <line number="20" hits="1" branch="false" />
+                <line number="21" hits="1" branch="false" />
+                <line number="22" hits="1" branch="false" />
+                <line number="23" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ShouldBeAbleToCalculateFreeSpace" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="27" hits="1" branch="false" />
+                <line number="28" hits="1" branch="false" />
+                <line number="29" hits="1" branch="false" />
+                <line number="30" hits="1" branch="false" />
+                <line number="31" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ShouldBeAbleToAddFriendlyAnimalsIntoEnclosure" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="35" hits="1" branch="false" />
+                <line number="36" hits="1" branch="false" />
+                <line number="37" hits="1" branch="false" />
+                <line number="38" hits="1" branch="false" />
+                <line number="39" hits="1" branch="false" />
+                <line number="41" hits="1" branch="false" />
+                <line number="42" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ShouldNotBeAbleToAddFriendlyAnimalsIntoFullEnclosure" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="45" hits="1" branch="false" />
+                <line number="46" hits="1" branch="false" />
+                <line number="47" hits="1" branch="false" />
+                <line number="48" hits="1" branch="false" />
+                <line number="49" hits="1" branch="false" />
+                <line number="50" hits="2" branch="false" />
+                <line number="51" hits="1" branch="false" />
+                <line number="52" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ShouldNotBeAbleToAddFriendlyAnimalsIntoFullEnclosureAndConsoleIsNull" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="56" hits="1" branch="false" />
+                <line number="57" hits="1" branch="false" />
+                <line number="58" hits="1" branch="false" />
+                <line number="59" hits="1" branch="false" />
+                <line number="60" hits="2" branch="false" />
+                <line number="61" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ShouldNotBeAbleToAddUnfriendlyAnimalsIntoEnclosure" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="65" hits="1" branch="false" />
+                <line number="66" hits="1" branch="false" />
+                <line number="67" hits="1" branch="false" />
+                <line number="68" hits="1" branch="false" />
+                <line number="69" hits="1" branch="false" />
+                <line number="70" hits="2" branch="false" />
+                <line number="71" hits="1" branch="false" />
+                <line number="72" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ShouldNotBeAbleToAddUnfriendlyAnimalsIntoEnclosureIsNull" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="75" hits="1" branch="false" />
+                <line number="76" hits="1" branch="false" />
+                <line number="77" hits="1" branch="false" />
+                <line number="78" hits="1" branch="false" />
+                <line number="79" hits="2" branch="false" />
+                <line number="80" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="16" hits="1" branch="false" />
+            <line number="17" hits="1" branch="false" />
+            <line number="19" hits="1" branch="false" />
+            <line number="20" hits="1" branch="false" />
+            <line number="21" hits="1" branch="false" />
+            <line number="22" hits="1" branch="false" />
+            <line number="23" hits="1" branch="false" />
+            <line number="27" hits="1" branch="false" />
+            <line number="28" hits="1" branch="false" />
+            <line number="29" hits="1" branch="false" />
+            <line number="30" hits="1" branch="false" />
+            <line number="31" hits="1" branch="false" />
+            <line number="35" hits="1" branch="false" />
+            <line number="36" hits="1" branch="false" />
+            <line number="37" hits="1" branch="false" />
+            <line number="38" hits="1" branch="false" />
+            <line number="39" hits="1" branch="false" />
+            <line number="41" hits="1" branch="false" />
+            <line number="42" hits="1" branch="false" />
+            <line number="45" hits="1" branch="false" />
+            <line number="46" hits="1" branch="false" />
+            <line number="47" hits="1" branch="false" />
+            <line number="48" hits="1" branch="false" />
+            <line number="49" hits="1" branch="false" />
+            <line number="50" hits="2" branch="false" />
+            <line number="51" hits="1" branch="false" />
+            <line number="52" hits="1" branch="false" />
+            <line number="56" hits="1" branch="false" />
+            <line number="57" hits="1" branch="false" />
+            <line number="58" hits="1" branch="false" />
+            <line number="59" hits="1" branch="false" />
+            <line number="60" hits="2" branch="false" />
+            <line number="61" hits="1" branch="false" />
+            <line number="65" hits="1" branch="false" />
+            <line number="66" hits="1" branch="false" />
+            <line number="67" hits="1" branch="false" />
+            <line number="68" hits="1" branch="false" />
+            <line number="69" hits="1" branch="false" />
+            <line number="70" hits="2" branch="false" />
+            <line number="71" hits="1" branch="false" />
+            <line number="72" hits="1" branch="false" />
+            <line number="75" hits="1" branch="false" />
+            <line number="76" hits="1" branch="false" />
+            <line number="77" hits="1" branch="false" />
+            <line number="78" hits="1" branch="false" />
+            <line number="79" hits="2" branch="false" />
+            <line number="80" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="ZooTest.Exceptions.ZooLabExceptionsTest" filename="D:\1. WORK\ANKO\Zoo Lab\ZooTest\Exceptions\ZooLabExceptionsTest.cs" line-rate="1" branch-rate="1" complexity="6">
+          <methods>
+            <method name="ShouldBeAbleToCreateNoNeededExperienceException" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="1" branch="false" />
+                <line number="19" hits="1" branch="false" />
+                <line number="20" hits="1" branch="false" />
+                <line number="21" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ShouldBeAbleToCreateEnclosureAlreadyExistsException" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="25" hits="1" branch="false" />
+                <line number="26" hits="1" branch="false" />
+                <line number="27" hits="1" branch="false" />
+                <line number="28" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ShouldBeAbleToCreateNoAvailableSpaceException" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="32" hits="1" branch="false" />
+                <line number="33" hits="1" branch="false" />
+                <line number="34" hits="1" branch="false" />
+                <line number="35" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ShouldBeAbleToCreateNotFavoriteFoodException" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="40" hits="1" branch="false" />
+                <line number="41" hits="1" branch="false" />
+                <line number="42" hits="1" branch="false" />
+                <line number="43" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ShouldBeAbleToCreateNotFriendlyAnimalException" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="48" hits="1" branch="false" />
+                <line number="49" hits="1" branch="false" />
+                <line number="50" hits="1" branch="false" />
+                <line number="51" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ShouldBeAbleToCreateUnknownAnimalException" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="55" hits="1" branch="false" />
+                <line number="56" hits="1" branch="false" />
+                <line number="57" hits="1" branch="false" />
+                <line number="58" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="18" hits="1" branch="false" />
+            <line number="19" hits="1" branch="false" />
+            <line number="20" hits="1" branch="false" />
+            <line number="21" hits="1" branch="false" />
+            <line number="25" hits="1" branch="false" />
+            <line number="26" hits="1" branch="false" />
+            <line number="27" hits="1" branch="false" />
+            <line number="28" hits="1" branch="false" />
+            <line number="32" hits="1" branch="false" />
+            <line number="33" hits="1" branch="false" />
+            <line number="34" hits="1" branch="false" />
+            <line number="35" hits="1" branch="false" />
+            <line number="40" hits="1" branch="false" />
+            <line number="41" hits="1" branch="false" />
+            <line number="42" hits="1" branch="false" />
+            <line number="43" hits="1" branch="false" />
+            <line number="48" hits="1" branch="false" />
+            <line number="49" hits="1" branch="false" />
+            <line number="50" hits="1" branch="false" />
+            <line number="51" hits="1" branch="false" />
+            <line number="55" hits="1" branch="false" />
+            <line number="56" hits="1" branch="false" />
+            <line number="57" hits="1" branch="false" />
+            <line number="58" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="ZooTest.ZooTest" filename="D:\1. WORK\ANKO\Zoo Lab\ZooTest\ZooTest.cs" line-rate="1" branch-rate="1" complexity="12">
+          <methods>
+            <method name="ShouldBeAbleToCrateZoo" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="1" branch="false" />
+                <line number="19" hits="1" branch="false" />
+                <line number="20" hits="1" branch="false" />
+                <line number="21" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ShouldBeAbleToAddEnclosure" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="24" hits="1" branch="false" />
+                <line number="25" hits="1" branch="false" />
+                <line number="26" hits="1" branch="false" />
+                <line number="28" hits="1" branch="false" />
+                <line number="29" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ShouldBeUnableToAddEnclosureWithNameThatAlreadyExists" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="32" hits="1" branch="false" />
+                <line number="33" hits="1" branch="false" />
+                <line number="34" hits="1" branch="false" />
+                <line number="35" hits="1" branch="false" />
+                <line number="37" hits="2" branch="false" />
+                <line number="38" hits="1" branch="false" />
+                <line number="39" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ShouldBeAbleToFindAvailableEnclosure" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="42" hits="1" branch="false" />
+                <line number="43" hits="1" branch="false" />
+                <line number="44" hits="1" branch="false" />
+                <line number="45" hits="1" branch="false" />
+                <line number="48" hits="1" branch="false" />
+                <line number="49" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ShouldBeAbleFindAvailableNonEmptyEnclosureWithFriendlyAnimalOnly" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="52" hits="1" branch="false" />
+                <line number="53" hits="1" branch="false" />
+                <line number="54" hits="1" branch="false" />
+                <line number="55" hits="1" branch="false" />
+                <line number="56" hits="1" branch="false" />
+                <line number="58" hits="1" branch="false" />
+                <line number="59" hits="1" branch="false" />
+                <line number="61" hits="1" branch="false" />
+                <line number="62" hits="1" branch="false" />
+                <line number="63" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ShouldBeAbleToReturnNullIfThereIsNoAvailableEnclosure" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="66" hits="1" branch="false" />
+                <line number="67" hits="1" branch="false" />
+                <line number="68" hits="1" branch="false" />
+                <line number="69" hits="1" branch="false" />
+                <line number="70" hits="1" branch="false" />
+                <line number="72" hits="1" branch="false" />
+                <line number="73" hits="1" branch="false" />
+                <line number="74" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ShouldBeAbleToHireAnEmployee" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="78" hits="1" branch="false" />
+                <line number="79" hits="1" branch="false" />
+                <line number="80" hits="1" branch="false" />
+                <line number="81" hits="1" branch="false" />
+                <line number="82" hits="1" branch="false" />
+                <line number="83" hits="1" branch="false" />
+                <line number="85" hits="1" branch="false" />
+                <line number="86" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ShouldNotBeAbleToHireAnEmployeeIfAnyValidationErrorIsExist" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="89" hits="1" branch="false" />
+                <line number="90" hits="1" branch="false" />
+                <line number="91" hits="1" branch="false" />
+                <line number="92" hits="1" branch="false" />
+                <line number="93" hits="1" branch="false" />
+                <line number="94" hits="1" branch="false" />
+                <line number="96" hits="1" branch="false" />
+                <line number="97" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ShouldBeAbleToFeedAnimalsByZooKeepers" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="101" hits="1" branch="false" />
+                <line number="102" hits="1" branch="false" />
+                <line number="103" hits="1" branch="false" />
+                <line number="104" hits="1" branch="false" />
+                <line number="105" hits="1" branch="false" />
+                <line number="106" hits="1" branch="false" />
+                <line number="107" hits="1" branch="false" />
+                <line number="108" hits="1" branch="false" />
+                <line number="109" hits="1" branch="false" />
+                <line number="110" hits="1" branch="false" />
+                <line number="111" hits="1" branch="false" />
+                <line number="112" hits="1" branch="false" />
+                <line number="113" hits="1" branch="false" />
+                <line number="114" hits="1" branch="false" />
+                <line number="116" hits="1" branch="false" />
+                <line number="117" hits="1" branch="false" />
+                <line number="118" hits="1" branch="false" />
+                <line number="119" hits="1" branch="false" />
+                <line number="120" hits="1" branch="false" />
+                <line number="121" hits="1" branch="false" />
+                <line number="122" hits="1" branch="false" />
+                <line number="123" hits="1" branch="false" />
+                <line number="124" hits="1" branch="false" />
+                <line number="125" hits="1" branch="false" />
+                <line number="126" hits="1" branch="false" />
+                <line number="127" hits="1" branch="false" />
+                <line number="129" hits="1" branch="false" />
+                <line number="130" hits="1" branch="false" />
+                <line number="131" hits="1" branch="false" />
+                <line number="132" hits="1" branch="false" />
+                <line number="133" hits="1" branch="false" />
+                <line number="134" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ShouldBeAbleToHealAnimalsByZooKeepers" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="138" hits="1" branch="false" />
+                <line number="139" hits="1" branch="false" />
+                <line number="140" hits="1" branch="false" />
+                <line number="141" hits="1" branch="false" />
+                <line number="142" hits="1" branch="false" />
+                <line number="143" hits="1" branch="false" />
+                <line number="144" hits="1" branch="false" />
+                <line number="145" hits="1" branch="false" />
+                <line number="146" hits="1" branch="false" />
+                <line number="147" hits="1" branch="false" />
+                <line number="148" hits="1" branch="false" />
+                <line number="149" hits="1" branch="false" />
+                <line number="150" hits="1" branch="false" />
+                <line number="151" hits="1" branch="false" />
+                <line number="153" hits="1" branch="false" />
+                <line number="154" hits="1" branch="false" />
+                <line number="155" hits="1" branch="false" />
+                <line number="156" hits="1" branch="false" />
+                <line number="158" hits="1" branch="false" />
+                <line number="159" hits="1" branch="false" />
+                <line number="160" hits="1" branch="false" />
+                <line number="161" hits="1" branch="false" />
+                <line number="162" hits="1" branch="false" />
+                <line number="163" hits="1" branch="false" />
+                <line number="164" hits="1" branch="false" />
+                <line number="165" hits="1" branch="false" />
+                <line number="166" hits="1" branch="false" />
+                <line number="167" hits="1" branch="false" />
+                <line number="168" hits="1" branch="false" />
+                <line number="169" hits="1" branch="false" />
+                <line number="170" hits="1" branch="false" />
+                <line number="171" hits="1" branch="false" />
+                <line number="172" hits="1" branch="false" />
+                <line number="173" hits="1" branch="false" />
+                <line number="174" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ShouldThrowUnknownAnimalExceptionIfNoZooKeeperWithSuchAnimalExperience" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="178" hits="1" branch="false" />
+                <line number="179" hits="1" branch="false" />
+                <line number="180" hits="1" branch="false" />
+                <line number="181" hits="1" branch="false" />
+                <line number="182" hits="1" branch="false" />
+                <line number="184" hits="1" branch="false" />
+                <line number="185" hits="1" branch="false" />
+                <line number="186" hits="1" branch="false" />
+                <line number="188" hits="1" branch="false" />
+                <line number="189" hits="1" branch="false" />
+                <line number="190" hits="1" branch="false" />
+                <line number="191" hits="1" branch="false" />
+                <line number="192" hits="1" branch="false" />
+                <line number="193" hits="1" branch="false" />
+                <line number="194" hits="1" branch="false" />
+                <line number="195" hits="1" branch="false" />
+                <line number="197" hits="5" branch="false" />
+                <line number="198" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ShouldThrowAnUnknownAnimalExceptionIfNoOneHaveExperienceWithIt" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="202" hits="1" branch="false" />
+                <line number="203" hits="1" branch="false" />
+                <line number="204" hits="1" branch="false" />
+                <line number="205" hits="1" branch="false" />
+                <line number="206" hits="1" branch="false" />
+                <line number="209" hits="1" branch="false" />
+                <line number="210" hits="1" branch="false" />
+                <line number="211" hits="1" branch="false" />
+                <line number="212" hits="1" branch="false" />
+                <line number="213" hits="1" branch="false" />
+                <line number="214" hits="1" branch="false" />
+                <line number="219" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="18" hits="1" branch="false" />
+            <line number="19" hits="1" branch="false" />
+            <line number="20" hits="1" branch="false" />
+            <line number="21" hits="1" branch="false" />
+            <line number="24" hits="1" branch="false" />
+            <line number="25" hits="1" branch="false" />
+            <line number="26" hits="1" branch="false" />
+            <line number="28" hits="1" branch="false" />
+            <line number="29" hits="1" branch="false" />
+            <line number="32" hits="1" branch="false" />
+            <line number="33" hits="1" branch="false" />
+            <line number="34" hits="1" branch="false" />
+            <line number="35" hits="1" branch="false" />
+            <line number="37" hits="2" branch="false" />
+            <line number="38" hits="1" branch="false" />
+            <line number="39" hits="1" branch="false" />
+            <line number="42" hits="1" branch="false" />
+            <line number="43" hits="1" branch="false" />
+            <line number="44" hits="1" branch="false" />
+            <line number="45" hits="1" branch="false" />
+            <line number="48" hits="1" branch="false" />
+            <line number="49" hits="1" branch="false" />
+            <line number="52" hits="1" branch="false" />
+            <line number="53" hits="1" branch="false" />
+            <line number="54" hits="1" branch="false" />
+            <line number="55" hits="1" branch="false" />
+            <line number="56" hits="1" branch="false" />
+            <line number="58" hits="1" branch="false" />
+            <line number="59" hits="1" branch="false" />
+            <line number="61" hits="1" branch="false" />
+            <line number="62" hits="1" branch="false" />
+            <line number="63" hits="1" branch="false" />
+            <line number="66" hits="1" branch="false" />
+            <line number="67" hits="1" branch="false" />
+            <line number="68" hits="1" branch="false" />
+            <line number="69" hits="1" branch="false" />
+            <line number="70" hits="1" branch="false" />
+            <line number="72" hits="1" branch="false" />
+            <line number="73" hits="1" branch="false" />
+            <line number="74" hits="1" branch="false" />
+            <line number="78" hits="1" branch="false" />
+            <line number="79" hits="1" branch="false" />
+            <line number="80" hits="1" branch="false" />
+            <line number="81" hits="1" branch="false" />
+            <line number="82" hits="1" branch="false" />
+            <line number="83" hits="1" branch="false" />
+            <line number="85" hits="1" branch="false" />
+            <line number="86" hits="1" branch="false" />
+            <line number="89" hits="1" branch="false" />
+            <line number="90" hits="1" branch="false" />
+            <line number="91" hits="1" branch="false" />
+            <line number="92" hits="1" branch="false" />
+            <line number="93" hits="1" branch="false" />
+            <line number="94" hits="1" branch="false" />
+            <line number="96" hits="1" branch="false" />
+            <line number="97" hits="1" branch="false" />
+            <line number="101" hits="1" branch="false" />
+            <line number="102" hits="1" branch="false" />
+            <line number="103" hits="1" branch="false" />
+            <line number="104" hits="1" branch="false" />
+            <line number="105" hits="1" branch="false" />
+            <line number="106" hits="1" branch="false" />
+            <line number="107" hits="1" branch="false" />
+            <line number="108" hits="1" branch="false" />
+            <line number="109" hits="1" branch="false" />
+            <line number="110" hits="1" branch="false" />
+            <line number="111" hits="1" branch="false" />
+            <line number="112" hits="1" branch="false" />
+            <line number="113" hits="1" branch="false" />
+            <line number="114" hits="1" branch="false" />
+            <line number="116" hits="1" branch="false" />
+            <line number="117" hits="1" branch="false" />
+            <line number="118" hits="1" branch="false" />
+            <line number="119" hits="1" branch="false" />
+            <line number="120" hits="1" branch="false" />
+            <line number="121" hits="1" branch="false" />
+            <line number="122" hits="1" branch="false" />
+            <line number="123" hits="1" branch="false" />
+            <line number="124" hits="1" branch="false" />
+            <line number="125" hits="1" branch="false" />
+            <line number="126" hits="1" branch="false" />
+            <line number="127" hits="1" branch="false" />
+            <line number="129" hits="1" branch="false" />
+            <line number="130" hits="1" branch="false" />
+            <line number="131" hits="1" branch="false" />
+            <line number="132" hits="1" branch="false" />
+            <line number="133" hits="1" branch="false" />
+            <line number="134" hits="1" branch="false" />
+            <line number="138" hits="1" branch="false" />
+            <line number="139" hits="1" branch="false" />
+            <line number="140" hits="1" branch="false" />
+            <line number="141" hits="1" branch="false" />
+            <line number="142" hits="1" branch="false" />
+            <line number="143" hits="1" branch="false" />
+            <line number="144" hits="1" branch="false" />
+            <line number="145" hits="1" branch="false" />
+            <line number="146" hits="1" branch="false" />
+            <line number="147" hits="1" branch="false" />
+            <line number="148" hits="1" branch="false" />
+            <line number="149" hits="1" branch="false" />
+            <line number="150" hits="1" branch="false" />
+            <line number="151" hits="1" branch="false" />
+            <line number="153" hits="1" branch="false" />
+            <line number="154" hits="1" branch="false" />
+            <line number="155" hits="1" branch="false" />
+            <line number="156" hits="1" branch="false" />
+            <line number="158" hits="1" branch="false" />
+            <line number="159" hits="1" branch="false" />
+            <line number="160" hits="1" branch="false" />
+            <line number="161" hits="1" branch="false" />
+            <line number="162" hits="1" branch="false" />
+            <line number="163" hits="1" branch="false" />
+            <line number="164" hits="1" branch="false" />
+            <line number="165" hits="1" branch="false" />
+            <line number="166" hits="1" branch="false" />
+            <line number="167" hits="1" branch="false" />
+            <line number="168" hits="1" branch="false" />
+            <line number="169" hits="1" branch="false" />
+            <line number="170" hits="1" branch="false" />
+            <line number="171" hits="1" branch="false" />
+            <line number="172" hits="1" branch="false" />
+            <line number="173" hits="1" branch="false" />
+            <line number="174" hits="1" branch="false" />
+            <line number="178" hits="1" branch="false" />
+            <line number="179" hits="1" branch="false" />
+            <line number="180" hits="1" branch="false" />
+            <line number="181" hits="1" branch="false" />
+            <line number="182" hits="1" branch="false" />
+            <line number="184" hits="1" branch="false" />
+            <line number="185" hits="1" branch="false" />
+            <line number="186" hits="1" branch="false" />
+            <line number="188" hits="1" branch="false" />
+            <line number="189" hits="1" branch="false" />
+            <line number="190" hits="1" branch="false" />
+            <line number="191" hits="1" branch="false" />
+            <line number="192" hits="1" branch="false" />
+            <line number="193" hits="1" branch="false" />
+            <line number="194" hits="1" branch="false" />
+            <line number="195" hits="1" branch="false" />
+            <line number="197" hits="5" branch="false" />
+            <line number="198" hits="1" branch="false" />
+            <line number="202" hits="1" branch="false" />
+            <line number="203" hits="1" branch="false" />
+            <line number="204" hits="1" branch="false" />
+            <line number="205" hits="1" branch="false" />
+            <line number="206" hits="1" branch="false" />
+            <line number="209" hits="1" branch="false" />
+            <line number="210" hits="1" branch="false" />
+            <line number="211" hits="1" branch="false" />
+            <line number="212" hits="1" branch="false" />
+            <line number="213" hits="1" branch="false" />
+            <line number="214" hits="1" branch="false" />
+            <line number="219" hits="1" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
