@@ -1,0 +1,4 @@
+	1. Enclosure.AddAnimal and Zoo.FindAvailableEnclosure 
+	Enclosure has the AddAnimal method. We can use FindAvailableEnclosure instead of it, because every time we
+find available enclosure, we check the Animal for accordance the same conditions. There is two ways: if it necessary
+to throw an exceptions, we can 

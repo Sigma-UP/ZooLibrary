@@ -1,0 +1,16 @@
+D:\1. WORK\ANKO\Zoo Lab\Zoo\obj\Debug\netcoreapp3.1\ZooApp.csproj.AssemblyReference.cache
+D:\1. WORK\ANKO\Zoo Lab\Zoo\obj\Debug\netcoreapp3.1\ZooApp.AssemblyInfoInputs.cache
+D:\1. WORK\ANKO\Zoo Lab\Zoo\obj\Debug\netcoreapp3.1\ZooApp.AssemblyInfo.cs
+D:\1. WORK\ANKO\Zoo Lab\Zoo\obj\Debug\netcoreapp3.1\ZooApp.csproj.CoreCompileInputs.cache
+D:\1. WORK\ANKO\Zoo Lab\Zoo\bin\Debug\netcoreapp3.1\ZooApp.exe
+D:\1. WORK\ANKO\Zoo Lab\Zoo\bin\Debug\netcoreapp3.1\ZooApp.deps.json
+D:\1. WORK\ANKO\Zoo Lab\Zoo\bin\Debug\netcoreapp3.1\ZooApp.runtimeconfig.json
+D:\1. WORK\ANKO\Zoo Lab\Zoo\bin\Debug\netcoreapp3.1\ZooApp.runtimeconfig.dev.json
+D:\1. WORK\ANKO\Zoo Lab\Zoo\bin\Debug\netcoreapp3.1\ZooApp.dll
+D:\1. WORK\ANKO\Zoo Lab\Zoo\bin\Debug\netcoreapp3.1\ZooApp.pdb
+D:\1. WORK\ANKO\Zoo Lab\Zoo\obj\Debug\netcoreapp3.1\ZooApp.dll
+D:\1. WORK\ANKO\Zoo Lab\Zoo\obj\Debug\netcoreapp3.1\ZooApp.pdb
+D:\1. WORK\ANKO\Zoo Lab\Zoo\obj\Debug\netcoreapp3.1\ZooApp.genruntimeconfig.cache
+D:\1. WORK\ANKO\Zoo Lab\Zoo\bin\Debug\netcoreapp3.1\ZooLib.dll
+D:\1. WORK\ANKO\Zoo Lab\Zoo\bin\Debug\netcoreapp3.1\ZooLib.pdb
+D:\1. WORK\ANKO\Zoo Lab\Zoo\obj\Debug\netcoreapp3.1\ZooApp.csproj.CopyComplete
